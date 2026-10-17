@@ -192,7 +192,7 @@
     "level_type": "level",
     "level": 4,
     "atk": 1700,
-    "name": "앤틱 기어 와이번",
+    "name": "앤틱 기어 와이반",
     "file_name": "17663375.jpg"
   },
   {
@@ -622,7 +622,7 @@
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "에니아크래프트ϝ’－「tromarIA」",
+    "name": "에니아크래프트ϝ`-「tromarIA」",
     "file_name": "29570824.jpg",
     "aliases": [
     "에니아크래프트엑토 트로마리아",
@@ -669,7 +669,7 @@
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": 에니아크래프트θ’－「oknirIA」",
+    "name": "에니아크래프트θ`-「oknirIA」",
     "file_name": "55965529.jpg",
     "aliases": [
     "에니아크래프트에나토 오크니리아",
@@ -1828,7 +1828,7 @@
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "에니아크래프트α’－「orgIA」",
+    "name": "에니아크래프트α`-「orgIA」",
     "file_name": "56187077.jpg",
     "aliases": [
     "에니아크래프트프로토 오르기아",
@@ -2140,6 +2140,7 @@
     "atk": 500,
     "name": "SPYRAL-지니어스",
     "file_name": "78080961.jpg",
+    "aliases":[
     "SPYRAL - 지니어스",
     "스파이랄-지니어스",
     "스파이랄 - 지니어스"
@@ -2621,7 +2622,7 @@
     "level": 4,
     "atk": 1200,
     "name": "초중무사소울 석궁",
-    "file_name": "90361010.jpg"
+    "file_name": "90361010.jpg",
     "aliases": [
     "석궁"
     ]
@@ -2657,7 +2658,7 @@
     "초중무사 온 미츠",
     "초중무사 온-삼이",
     "초중무사 온 삼이",
-    "초중무사 온 32",
+    "초중무사 온 32"
     ]
   },
   {
