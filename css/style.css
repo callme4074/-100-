@@ -3,8 +3,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("../fonts/RIDIBatang.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "RIDIBatang", serif;
   background: #20242b;
   color: white;
   margin: 0;
@@ -218,5 +226,50 @@ input:disabled {
   #hintImage {
     width: 80px;
     height: 80px;
+  }
+}
+/* 전체 정답 보기 버튼 */
+#revealAllButton {
+  background: #b45309;
+}
+
+#revealAllButton.confirming {
+  background: #dc2626;
+}
+
+/* 화면 오른쪽 아래 최상단 이동 버튼 */
+#topButton {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+
+  width: 44px;
+  height: 44px;
+  padding: 0;
+
+  border-radius: 50%;
+  background: #64748b;
+  color: white;
+
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 44px;
+  text-align: center;
+
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+}
+
+#topButton:hover {
+  background: #475569;
+}
+
+@media (max-width: 700px) {
+  #topButton {
+    right: 12px;
+    bottom: 12px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
   }
 }

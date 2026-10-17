@@ -8,6 +8,8 @@ const hintButton = document.getElementById("hintButton");
 const quizBoard = document.getElementById("quizBoard");
 const hintImage = document.getElementById("hintImage");
 const hintMessage = document.getElementById("hintMessage");
+const revealAllButton = document.getElementById("revealAllButton");
+const topButton = document.getElementById("topButton");
 
 let cards = [];
 let solvedNames = new Set();
@@ -17,9 +19,29 @@ let elapsedSeconds = 0;
 let timerId = null;
 let hintTimeoutId = null;
 let gameStarted = false;
+let revealConfirmTimeoutId = null;
+let revealConfirmPending = false;
 
 function normalizeAnswer(value) {
   return value.trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function findCardByAnswer(answer) {
+  return cards.find(card => {
+    const officialName = normalizeAnswer(card.name);
+
+    const aliases = Array.isArray(card.aliases)
+      ? card.aliases
+      : [];
+
+    return (
+      officialName === answer ||
+      aliases.some(alias =>
+        typeof alias === "string" &&
+        normalizeAnswer(alias) === answer
+      )
+    );
+  });
 }
 
 function updateScore() {
@@ -178,19 +200,20 @@ function submitAnswer() {
   const answer = normalizeAnswer(answerInput.value);
   if (!answer) return;
 
-  const card = cards.find(item =>
-    normalizeAnswer(item.name) === answer
-  );
-
+  const card = findCardByAnswer(answer);
   if (!card) return;
+
+  // 이미 맞힌 카드라면 입력창을 유지합니다.
+  const normalizedName = normalizeAnswer(card.name);
+  if (solvedNames.has(normalizedName)) {
+    feedback.textContent = `이미 맞히신 카드입니다: ${card.name}`;
+    return;
+  }
 
   const accepted = revealCard(card);
 
   if (accepted) {
-    feedback.textContent = `정답! ${card.name}`;
-    answerInput.value = "";
-  } else {
-    // 이미 맞힌 카드는 다시 처리하지 않는다.
+    feedback.textContent = `정답입니다! ${card.name}`;
     answerInput.value = "";
   }
 }
@@ -246,6 +269,48 @@ function showHint() {
   hintImage.src = `./images/${card.file_name}`;
 }
 
+function resetRevealConfirmation() {
+  if (revealConfirmTimeoutId !== null) {
+    clearTimeout(revealConfirmTimeoutId);
+    revealConfirmTimeoutId = null;
+  }
+
+  revealConfirmPending = false;
+  revealAllButton.classList.remove("confirming");
+  revealAllButton.textContent = "전체 정답 보기";
+}
+
+function handleRevealAll() {
+  if (!gameStarted) return;
+
+  // 첫 번째 클릭: 3초 동안 재확인 대기
+  if (!revealConfirmPending) {
+    revealConfirmPending = true;
+    revealAllButton.classList.add("confirming");
+    revealAllButton.textContent = "3초 안에 다시 눌러 주세요";
+
+    feedback.textContent =
+      "전체 정답을 공개하시려면 3초 이내에 버튼을 한 번 더 눌러 주세요.";
+
+    revealConfirmTimeoutId = setTimeout(() => {
+      resetRevealConfirmation();
+      feedback.textContent =
+        "전체 정답 공개가 취소되었습니다. 필요하시면 다시 시도해 주세요.";
+    }, 3000);
+
+    return;
+  }
+
+  // 두 번째 클릭: 전체 정답 공개
+  resetRevealConfirmation();
+
+  for (const card of cards) {
+    revealCard(card);
+  }
+
+  endGame("전체 정답을 공개했습니다.");
+}
+
 function endGame(message) {
   gameStarted = false;
 
@@ -254,12 +319,16 @@ function endGame(message) {
     timerId = null;
   }
 
+  resetRevealConfirmation();
+
   answerInput.disabled = true;
   hintButton.disabled = true;
+  revealAllButton.disabled = true;
   startButton.disabled = false;
   startButton.textContent = "다시 시작";
 
   clearHint();
+
   feedback.textContent =
     `${message} 최종 정답: ${solvedNames.size} / ${cards.length}. ${timerText.textContent}`;
 }
@@ -270,7 +339,9 @@ function startGame() {
     timerId = null;
   }
 
+  resetRevealConfirmation();
   clearHint();
+
   solvedNames.clear();
   elapsedSeconds = 0;
   gameStarted = true;
@@ -284,11 +355,14 @@ function startGame() {
   answerInput.focus();
 
   hintButton.disabled = false;
-  startButton.disabled = true;
-  startButton.textContent = "진행 중";
+  revealAllButton.disabled = false;
 
-  feedback.textContent = "카드 이름을 입력해 봐!";
-  hintMessage.textContent = "힌트 버튼을 누르면 아직 맞히지 못한 카드가 잠깐 보여.";
+  startButton.disabled = true;
+  startButton.textContent = "퀴즈 진행 중";
+
+  feedback.textContent = "카드 이름을 입력해 주세요.";
+  hintMessage.textContent =
+    "힌트 버튼을 누르면 아직 맞히지 못한 카드의 이미지가 잠깐 표시됩니다.";
 
   timerId = setInterval(() => {
     elapsedSeconds++;
@@ -325,8 +399,6 @@ async function loadCards() {
     updateScore();
 
     startButton.disabled = false;
-    feedback.textContent =
-      `${cards.length}장의 카드 데이터를 불러왔어. 퀴즈를 시작해 봐!`;
   } catch (error) {
     console.error(error);
 
@@ -346,10 +418,20 @@ answerInput.addEventListener("keydown", event => {
   }
 });
 
+revealAllButton.addEventListener("click", handleRevealAll);
+
+topButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
 startButton.addEventListener("click", startGame);
 hintButton.addEventListener("click", showHint);
 
 startButton.disabled = true;
 hintButton.disabled = true;
+revealAllButton.disabled = true;
 
 loadCards();

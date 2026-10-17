@@ -17,16 +17,18 @@
     </div>
 
     <div class="answer-area">
-      <input
+    <input
         type="text"
         id="answerInput"
-        placeholder="카드 이름을 입력하세요"
+        placeholder="카드 이름을 입력해 주세요"
         autocomplete="off"
         disabled
-      >
-      <button id="startButton" type="button">퀴즈 시작</button>
-      <button id="hintButton" type="button" disabled>힌트</button>
+    >
+    <button id="startButton" type="button">퀴즈 시작</button>
+    <button id="hintButton" type="button" disabled>힌트</button>
+    <button id="revealAllButton" type="button" disabled>전체 정답 보기</button>
     </div>
+
 
     <p id="feedback" aria-live="polite">
       퀴즈 시작 버튼을 눌러 주세요.
@@ -38,6 +40,7 @@
     </section>
 
     <div id="quizBoard"></div>
+    <button id="topButton" type="button" aria-label="페이지 최상단으로 이동">^</button>
   </main>
 </body>
 </html>

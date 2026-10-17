@@ -1207,8 +1207,11 @@
     "level_type": "level",
     "level": 10,
     "atk": 3000,
-    "name": "Machina Citadel",
-    "file_name": "87074380.jpg"
+    "name": "머시너즈 카넬",
+    "file_name": "87074380.jpg",
+    "aliases": [
+    "카넬"
+    ]
   },
   {
     "level_type": "level",
