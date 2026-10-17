@@ -3,252 +3,252 @@
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Acrobat Monkey",
+    "name": "애크러뱃 몽키",
     "file_name": "47372349.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 300,
-    "name": "Ambulanceroid",
+    "name": "구급로이드",
     "file_name": "36378213.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 800,
-    "name": "Anchorbolt Hedgehog",
+    "name": "앵커볼트 고슴도치",
     "file_name": "54656950.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 100,
-    "name": "Ancient Gear",
+    "name": "앤틱 기어",
     "file_name": "31557782.jpg"
   },
   {
     "level_type": "link",
     "level": 2,
     "atk": 1500,
-    "name": "Ancient Gear Ballista",
+    "name": "앤틱 기어 발리스틱슈터",
     "file_name": "10547580.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2000,
-    "name": "Ancient Gear Beast",
+    "name": "앤틱 기어 비스트",
     "file_name": "10509340.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Ancient Gear Box",
+    "name": "앤틱 기어 박스",
     "file_name": "60953949.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 500,
-    "name": "Ancient Gear Cannon",
+    "name": "앤틱 기어 캐논",
     "file_name": "80045583.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Ancient Gear Commander",
+    "name": "앤틱 기어 커맨더",
     "file_name": "27483935.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 3000,
-    "name": "Ancient Gear Dark Golem",
+    "name": "앤틱 기어 다크 골렘",
     "file_name": "64603182.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 500,
-    "name": "Ancient Gear Dragon",
+    "name": "앤틱 기어 드래곤",
     "file_name": "75892194.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1500,
-    "name": "Ancient Gear Engineer",
+    "name": "앤틱 기어 엔지니어",
     "file_name": "1953925.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Ancient Gear Frame",
+    "name": "앤틱 기어 프레임",
     "file_name": "1278431.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Ancient Gear Gadget",
+    "name": "앤틱기어 가젯",
     "file_name": "18486927.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2300,
-    "name": "Ancient Gear Gadjiltron Chimera",
+    "name": "앤틱 기어 가젤 키메라",
     "file_name": "86321248.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 3000,
-    "name": "Ancient Gear Gadjiltron Dragon",
+    "name": "앤틱 기어 가젤 드래곤",
     "file_name": "50933533.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 3000,
-    "name": "Ancient Gear Golem",
+    "name": "앤틱 기어 골렘",
     "file_name": "83104731.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 3000,
-    "name": "Ancient Gear Golem - Ultimate Pound",
+    "name": "앤틱 기어 골렘-얼티미트 파운드",
     "file_name": "95735217.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1000,
-    "name": "Ancient Gear Howitzer",
+    "name": "앤틱 기어 데블",
     "file_name": "87182127.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Ancient Gear Hunting Hound",
+    "name": "앤틱 기어 하운드독",
     "file_name": "42878636.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2700,
-    "name": "Ancient Gear Hydra",
+    "name": "앤틱 기어 히드라",
     "file_name": "81269231.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Ancient Gear Knight",
+    "name": "앤틱 기어 나이트",
     "file_name": "39303359.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 3300,
-    "name": "Ancient Gear Megaton Golem",
+    "name": "앤틱 기어 메가톤 골렘",
     "file_name": "37663536.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 3000,
-    "name": "Ancient Gear Reactor Dragon",
+    "name": "앤틱 기어 리액터 드래곤",
     "file_name": "44874522.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1300,
-    "name": "Ancient Gear Soldier",
+    "name": "앤틱 기어 솔져",
     "file_name": "56094445.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 500,
-    "name": "Ancient Gear Statue",
+    "name": "앤틱 기어 스태추",
     "file_name": "32762201.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1300,
-    "name": "Ancient Gear Tanker",
+    "name": "앤틱 기어 탱커",
     "file_name": "91098230.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1700,
-    "name": "Ancient Gear Wyvern",
+    "name": "앤틱 기어 와이번",
     "file_name": "17663375.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 2900,
-    "name": "Apoqliphort Skybase",
+    "name": "아포클리포트 카넬",
     "file_name": "40061558.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 3000,
-    "name": "Apoqliphort Towers",
+    "name": "아포클리포트 킬러",
     "file_name": "27279764.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2700,
-    "name": "Armoroid",
+    "name": "아머로이드 가이덴고",
     "file_name": "73333463.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Aye-Iron",
+    "name": "아이 아이언",
     "file_name": "42969214.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 2500,
-    "name": "B.E.S. Blaster Cannon Core",
+    "name": "거대전함 블래스터캐논 코어",
     "file_name": "84257883.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2500,
-    "name": "B.E.S. Covered Core",
+    "name": "거대전함 커버드 코어",
     "file_name": "15317640.jpg"
   },
   {
     "level_type": "level",
     "level": 12,
     "atk": 4000,
-    "name": "Barbaroid, the Ultimate Battle Machine",
+    "name": "극전기왕 바르바로이드",
     "file_name": "54702678.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 200,
-    "name": "Bicular",
+    "name": "바이클러",
     "file_name": "83392426.jpg"
   },
   {

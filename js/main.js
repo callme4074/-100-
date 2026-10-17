@@ -1,4 +1,3 @@
-
 const scoreText = document.getElementById("score");
 const timerText = document.getElementById("timer");
 const answerInput = document.getElementById("answerInput");
@@ -13,11 +12,12 @@ const topButton = document.getElementById("topButton");
 
 let cards = [];
 let solvedNames = new Set();
+let forfeitedNames = new Set(); // 추가: 힌트 패스/전체보기로 공개된 카드
 let slotByName = new Map();
 
 let elapsedSeconds = 0;
 let timerId = null;
-let hintTimeoutId = null;
+let currentHintCard = null; // 추가: 현재 힌트로 띄워둔 카드
 let gameStarted = false;
 let revealConfirmTimeoutId = null;
 let revealConfirmPending = false;
@@ -57,7 +57,6 @@ function updateTimer() {
 }
 
 function getSectionName(card) {
-  // 링크 몬스터와 일반 몬스터를 나누지 않고 숫자만으로 묶는다.
   return `레벨 ${card.level}`;
 }
 
@@ -82,7 +81,6 @@ function renderBoard() {
   });
 
   for (const [sectionName, groupCards] of sortedGroups) {
-    // 공격력이 높은 카드부터 정렬
     groupCards.sort((a, b) => {
       const atkA = Number(a.atk);
       const atkB = Number(b.atk);
@@ -134,7 +132,6 @@ function renderBoard() {
       image.hidden = true;
       image.src = `./images/${card.file_name}`;
 
-      // 이미지가 없거나 경로가 잘못된 경우에도 오류를 알 수 있게 한다.
       image.addEventListener("error", () => {
         image.alt = `${card.name} 이미지 불러오기 실패`;
       });
@@ -143,7 +140,6 @@ function renderBoard() {
       name.className = "card-name";
       name.textContent = "미입력";
 
-      // 이미지와 ?는 같은 카드 칸 안에 있다.
       slot.append(placeholder, image, name);
       grid.appendChild(slot);
 
@@ -162,33 +158,39 @@ function renderBoard() {
   }
 }
 
-function revealCard(card) {
+// isScored: true면 정답(초록색), false면 패스/전체공개(붉은색) 처리
+function revealCard(card, isScored = true) {
   const normalizedName = normalizeAnswer(card.name);
 
-  if (solvedNames.has(normalizedName)) return false;
+  if (solvedNames.has(normalizedName) || forfeitedNames.has(normalizedName)) return false;
 
   const elements = slotByName.get(normalizedName);
   if (!elements) return false;
 
-  // 같은 칸에서 ?를 숨기고 카드 이미지를 표시한다.
   elements.placeholder.hidden = true;
   elements.image.hidden = false;
   elements.name.textContent = card.name;
-  elements.slot.classList.add("solved");
 
-  solvedNames.add(normalizedName);
+  if (isScored) {
+    elements.slot.classList.add("solved");
+    solvedNames.add(normalizedName);
+  } else {
+    elements.slot.classList.add("forfeited");
+    forfeitedNames.add(normalizedName);
+  }
 
-  const sectionSolved = elements.sectionNames.filter(name =>
-    solvedNames.has(name)
+  // 섹션 진행도는 맞힌 카드와 패스한 카드를 모두 포함하여 계산
+  const sectionCleared = elements.sectionNames.filter(name =>
+    solvedNames.has(name) || forfeitedNames.has(name)
   ).length;
 
   elements.progress.textContent =
-    `${sectionSolved} / ${elements.sectionNames.length}`;
+    `${sectionCleared} / ${elements.sectionNames.length}`;
 
   updateScore();
 
-  if (solvedNames.size === cards.length) {
-    endGame("모든 카드를 맞혔어!");
+  if (solvedNames.size + forfeitedNames.size === cards.length) {
+    endGame("모든 카드가 공개됐습니다!");
   }
 
   return true;
@@ -203,36 +205,52 @@ function submitAnswer() {
   const card = findCardByAnswer(answer);
   if (!card) return;
 
-  // 이미 맞힌 카드라면 입력창을 유지합니다.
   const normalizedName = normalizeAnswer(card.name);
+
   if (solvedNames.has(normalizedName)) {
     feedback.textContent = `이미 맞히신 카드입니다: ${card.name}`;
     return;
   }
+  
+  if (forfeitedNames.has(normalizedName)) {
+    feedback.textContent = `이미 패스(공개)된 카드입니다: ${card.name}`;
+    return;
+  }
 
-  const accepted = revealCard(card);
+  const accepted = revealCard(card, true); // 정답 맞힘
 
   if (accepted) {
     feedback.textContent = `정답입니다! ${card.name}`;
     answerInput.value = "";
+
+    // 힌트로 떠 있던 카드를 맞혔을 경우 힌트 초기화
+    if (currentHintCard && normalizeAnswer(currentHintCard.name) === normalizedName) {
+      hintMessage.textContent = "";
+      clearHint();
+    }
   }
 }
 
 function clearHint() {
-  if (hintTimeoutId !== null) {
-    clearTimeout(hintTimeoutId);
-    hintTimeoutId = null;
-  }
-
   hintImage.hidden = true;
   hintImage.removeAttribute("src");
+  currentHintCard = null;
 }
 
 function showHint() {
   if (!gameStarted) return;
 
+  // 이미 힌트가 떠 있는 상태에서 한 번 더 누르면 정답 처리 (점수 미포함)
+  if (currentHintCard) {
+    revealCard(currentHintCard, false);
+    hintMessage.textContent = `'${currentHintCard.name}' 카드를 패스(점수 미포함) 처리했어.`;
+    clearHint();
+    return;
+  }
+
   const unsolvedCards = cards.filter(card =>
-    !solvedNames.has(normalizeAnswer(card.name))
+    !solvedNames.has(normalizeAnswer(card.name)) &&
+    !forfeitedNames.has(normalizeAnswer(card.name))
   );
 
   if (unsolvedCards.length === 0) {
@@ -241,24 +259,14 @@ function showHint() {
     return;
   }
 
-  // 아직 맞히지 못한 카드 중 하나를 무작위로 선택한다.
-  const card = unsolvedCards[
+  currentHintCard = unsolvedCards[
     Math.floor(Math.random() * unsolvedCards.length)
   ];
 
-  clearHint();
-
-  hintMessage.textContent = "힌트 이미지가 1초 동안 표시돼.";
+  hintMessage.textContent = "이 카드의 이름은 무엇일까요? 패스하려면 힌트를 한 번 더 주세요.";
 
   hintImage.onload = () => {
     hintImage.hidden = false;
-
-    hintTimeoutId = setTimeout(() => {
-      hintImage.hidden = true;
-      hintImage.removeAttribute("src");
-      hintTimeoutId = null;
-      hintMessage.textContent = "힌트가 끝났어. 다시 필요하면 힌트를 눌러 줘.";
-    }, 1000);
   };
 
   hintImage.onerror = () => {
@@ -266,7 +274,7 @@ function showHint() {
     hintMessage.textContent = "힌트 이미지를 불러오지 못했어. 이미지 경로를 확인해 줘.";
   };
 
-  hintImage.src = `./images/${card.file_name}`;
+  hintImage.src = `./images/${currentHintCard.file_name}`;
 }
 
 function resetRevealConfirmation() {
@@ -283,7 +291,6 @@ function resetRevealConfirmation() {
 function handleRevealAll() {
   if (!gameStarted) return;
 
-  // 첫 번째 클릭: 3초 동안 재확인 대기
   if (!revealConfirmPending) {
     revealConfirmPending = true;
     revealAllButton.classList.add("confirming");
@@ -301,11 +308,11 @@ function handleRevealAll() {
     return;
   }
 
-  // 두 번째 클릭: 전체 정답 공개
   resetRevealConfirmation();
 
+  // 모든 카드를 점수 미포함 상태(false)로 공개
   for (const card of cards) {
-    revealCard(card);
+    revealCard(card, false);
   }
 
   endGame("전체 정답을 공개했습니다.");
@@ -343,6 +350,7 @@ function startGame() {
   clearHint();
 
   solvedNames.clear();
+  forfeitedNames.clear(); // 시작 시 패스 목록도 초기화
   elapsedSeconds = 0;
   gameStarted = true;
 
@@ -362,7 +370,7 @@ function startGame() {
 
   feedback.textContent = "카드 이름을 입력해 주세요.";
   hintMessage.textContent =
-    "힌트 버튼을 누르면 아직 맞히지 못한 카드의 이미지가 잠깐 표시됩니다.";
+    "힌트 버튼을 누르면 이미지가 표시되며, 한 번 더 누르면 카드를 패스할 수 있습니다.";
 
   timerId = setInterval(() => {
     elapsedSeconds++;

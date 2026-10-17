@@ -176,12 +176,21 @@ input:disabled {
   color: #64748b;
 }
 
+/* 정답 맞혔을 때 (초록색) */
 .card-slot.solved {
   border-color: #65a30d;
 }
-
 .card-slot.solved .card-name {
   color: white;
+}
+
+/* 힌트 패스 / 전체 공개로 드러났을 때 (점수 미포함, 붉은색 계열) */
+.card-slot.forfeited {
+  border-color: #dc2626;
+  opacity: 0.7;
+}
+.card-slot.forfeited .card-name {
+  color: #fca5a5;
 }
 
 @media (max-width: 700px) {
