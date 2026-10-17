@@ -3,7 +3,7 @@
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "애크러뱃 몽키",
+    "name": "애크러뱃 멍키",
     "file_name": "47372349.jpg"
   },
   {
@@ -255,952 +255,1112 @@
     "level_type": "level",
     "level": 8,
     "atk": 2500,
-    "name": "Boot-Up Admiral - Destroyer Dynamo",
+    "name": "기동제독 디스트로이 리볼버",
     "file_name": "36322312.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 0,
-    "name": "Boot-Up Corporal - Command Dynamo",
+    "name": "기동병장 커맨드 리볼버",
     "file_name": "938717.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 0,
-    "name": "Boot-Up Soldier - Dread Dynamo",
+    "name": "기동병사 데드 리볼버",
     "file_name": "13316346.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1500,
-    "name": "Bri Synchron",
+    "name": "브라이 싱크론",
     "file_name": "52840598.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Buster Blaster",
+    "name": "버스터 쇼트맨",
     "file_name": "63676256.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1900,
-    "name": "Cannon Soldier MK-2",
+    "name": "메가캐논 솔저",
     "file_name": "14702066.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 400,
-    "name": "Card Trooper",
+    "name": "카드 트루퍼",
     "file_name": "85087012.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 800,
-    "name": "Cardcar D",
-    "file_name": "45812361.jpg"
+    "name": "카드카·D",
+    "file_name": "45812361.jpg",
+    "aliases": [
+    "카드카D",
+    "카드카 D",
+    "카드카-D"
+    ]
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2000,
-    "name": "Centur-Ion Emeth VI",
-    "file_name": "78888899.jpg"
+    "name": "센츄리온 에메트Ⅵ",
+    "file_name": "78888899.jpg",
+    "aliases": [
+    "센츄리온 에메트6",
+    "센츄리온 에메트젝스",
+    "센츄리온 에메트식스"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2000,
-    "name": "Checkker",
+    "name": "체츠커",
     "file_name": "77435268.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1500,
-    "name": "Chronomaly Mayan Machine",
+    "name": "오파츠 마얀 머신",
     "file_name": "25163248.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1350,
-    "name": "Cipher Soldier",
+    "name": "사이퍼 스카우터",
     "file_name": "79853073.jpg"
   },
   {
     "level_type": "link",
     "level": 1,
     "atk": 500,
-    "name": "Clockwork Knight",
-    "file_name": "41739381.jpg"
+    "name": "클락 워크 나이트",
+    "file_name": "41739381.jpg",
+    "aliases": [
+    "클락워크 나이트"
+    ]
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2500,
-    "name": "Combat Wheel",
-    "file_name": "12501230.jpg"
+    "name": "컴배트 휠",
+    "file_name": "12501230.jpg",
+    "aliases": [
+    "컴뱃 휠"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1000,
-    "name": "Commander Covington",
+    "name": "독전관 코빈톤",
     "file_name": "22666164.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Construction Train Signal Red",
+    "name": "공작열차 시그널 레드",
     "file_name": "34475451.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Convex Knight",
+    "name": "콘벡스 나이트",
     "file_name": "43471513.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Cosmic Compass",
+    "name": "클러스터 펜듈럼",
     "file_name": "27450400.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1900,
-    "name": "Cyber Ogre",
+    "name": "사이버 오우거",
     "file_name": "64268668.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2600,
-    "name": "Cyber Ogre 2",
-    "file_name": "37057012.jpg"
+    "name": "사이버 오우거 2",
+    "file_name": "37057012.jpg",
+    "aliases": [
+    "사이버 오우거2"
+    ]
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1800,
-    "name": "Cyber Saurus",
+    "name": "메카 사우루스",
     "file_name": "89112729.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 800,
-    "name": "Cycroid",
+    "name": "싸이크로이드",
     "file_name": "45945685.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1000,
-    "name": "Dark Catapulter",
+    "name": "다크 캐터펄터",
     "file_name": "33875961.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Deftero Enneacraft - \"alazoneIA\"",
-    "file_name": "92171126.jpg"
+    "name": "에니아크래프트γ'-「alazoneIA」",
+    "file_name": "44716748.jpg",
+    "aliases": [
+    "에니아크래프트테프테로 알라조니아",
+    "에니아크래프트테프테로-알라조니아",
+    "에니아크래프트테프테로 alazoneIA",
+    "에니아크래프트테프테로-alazoneIA",   
+    "에니아크래프트테프테로 「알라조니아」",
+    "에니아크래프트테프테로-「알라조니아」",
+    "에니아크래프트테프테로 「alazoneIA」",
+    "에니아크래프트테프테로-「alazoneIA」",
+    "에니아크래프트테프테로' 알라조니아",
+    "에니아크래프트테프테로'-알라조니아",
+    "에니아크래프트테프테로' alazoneIA",
+    "에니아크래프트테프테로'-alazoneIA",
+    "에니아크래프트테프테로' 「알라조니아」",
+    "에니아크래프트테프테로'-「알라조니아」",
+    "에니아크래프트테프테로' 「alazoneIA」",
+    "에니아크래프트테프테로'-「alazoneIA」",
+    "에니아크래프트γ' 알라조니아",
+    "에니아크래프트γ'-알라조니아",
+    "에니아크래프트γ' alazoneIA",
+    "에니아크래프트γ'-alazoneIA",
+    "에니아크래프트γ' 「알라조니아」",
+    "에니아크래프트γ'-「알라조니아」",
+    "에니아크래프트γ' 「alazoneIA」",
+    "에니아크래프트γ'-「alazoneIA」"
+  ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 500,
-    "name": "Deskbot 001",
+    "name": "분보그001",
     "file_name": "94693857.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 500,
-    "name": "Deskbot 002",
+    "name": "분보그002",
     "file_name": "59368956.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 500,
-    "name": "Deskbot 003",
+    "name": "분보그003",
     "file_name": "75944053.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Deskbot 004",
+    "name": "분보그004",
     "file_name": "22227683.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 500,
-    "name": "Deskbot 005",
+    "name": "분보그005",
     "file_name": "10117149.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 500,
-    "name": "Deskbot 006",
+    "name": "분보그006",
     "file_name": "55106249.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 500,
-    "name": "Deskbot 007",
+    "name": "분보그007",
     "file_name": "97588916.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 500,
-    "name": "Deskbot 008",
+    "name": "분보그008",
     "file_name": "24573625.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 500,
-    "name": "Deskbot 009",
+    "name": "분보그009",
     "file_name": "25494711.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 500,
-    "name": "Deskbot Jet",
+    "name": "분보그 제트",
     "file_name": "89544521.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1650,
-    "name": "Dice Armadillo",
+    "name": "다이스 아르마딜로",
     "file_name": "69893315.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 3200,
-    "name": "Digvorzhak, King of Heavy Industry",
+    "name": "중기왕 드보크 자크",
     "file_name": "29515122.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Dododo Bot",
+    "name": "도도도 보트",
     "file_name": "19700943.jpg"
   },
   {
     "level_type": "link",
     "level": 2,
     "atk": 1500,
-    "name": "Double Headed Anger Knuckle",
+    "name": "기관중련 앵거 너클",
     "file_name": "146746.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 1500,
-    "name": "Dovelgus, Generaider Boss of Iron",
+    "name": "철의 제너레이드 도벨구스",
     "file_name": "76382116.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Dragong",
+    "name": "징 드래곤",
     "file_name": "83980492.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2500,
-    "name": "Drill Driver Vespenato",
+    "name": "선회의 베스퍼네이트",
     "file_name": "39317553.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 800,
-    "name": "Drill Synchron",
+    "name": "드릴 싱크론",
     "file_name": "56286179.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Drillroid",
+    "name": "드릴로이드",
     "file_name": "71218746.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 0,
-    "name": "Dyna Base",
+    "name": "다이너 베이스",
     "file_name": "39396763.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": -1,
-    "name": "Dyna Tank",
+    "name": "다이너 탱크",
     "file_name": "75780818.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 200,
-    "name": "Einroid",
+    "name": "아인 로이드",
     "file_name": "88039509.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Ekto Enneacraft - \"tromarIA\"",
-    "file_name": "29570824.jpg"
+    "name": "에니아크래프트ϝ’－「tromarIA」",
+    "file_name": "29570824.jpg",
+    "aliases": [
+    "에니아크래프트엑토 트로마리아",
+    "에니아크래프트엑토-트로마리아",
+    "에니아크래프트엑토 tromarIA",
+    "에니아크래프트엑토-tromarIA",   
+    "에니아크래프트엑토 「트로마리아」",
+    "에니아크래프트엑토-「트로마리아」",
+    "에니아크래프트엑토 「tromarIA」",
+    "에니아크래프트엑토-「tromarIA」",
+    "에니아크래프트엑토' 트로마리아",
+    "에니아크래프트엑토'-트로마리아",
+    "에니아크래프트엑토' tromarIA",
+    "에니아크래프트엑토'-tromarIA",
+    "에니아크래프트엑토' 「트로마리아」",
+    "에니아크래프트엑토'-「트로마리아」",
+    "에니아크래프트엑토' 「tromarIA」",
+    "에니아크래프트엑토'-「tromarIA」",
+    "에니아크래프트ϝ' 트로마리아",
+    "에니아크래프트ϝ'-트로마리아",
+    "에니아크래프트ϝ' tromarIA",
+    "에니아크래프트ϝ'-tromarIA",
+    "에니아크래프트ϝ' 「트로마리아」",
+    "에니아크래프트ϝ'-「트로마리아」",
+    "에니아크래프트ϝ' 「tromarIA」",
+    "에니아크래프트ϝ'-「tromarIA」"
+  ]
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 2800,
-    "name": "El Shaddoll Meshahrail",
+    "name": "엘섀도르 메샤플레르",
     "file_name": "32467459.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 2600,
-    "name": "El Shaddoll Shekhinaga",
+    "name": "엘섀도르 셰키나가",
     "file_name": "74822425.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Enato Enneacraft - \"oknirIA\"",
-    "file_name": "55965529.jpg"
+    "name": 에니아크래프트θ’－「oknirIA」",
+    "file_name": "55965529.jpg",
+    "aliases": [
+    "에니아크래프트에나토 오크니리아",
+    "에니아크래프트에나토-오크니리아",
+    "에니아크래프트에나토 oknirIA",
+    "에니아크래프트에나토-oknirIA",   
+    "에니아크래프트에나토 「오크니리아」",
+    "에니아크래프트에나토-「오크니리아」",
+    "에니아크래프트에나토 「oknirIA」",
+    "에니아크래프트에나토-「oknirIA」",
+    "에니아크래프트에나토' 오크니리아",
+    "에니아크래프트에나토'-오크니리아",
+    "에니아크래프트에나토' oknirIA",
+    "에니아크래프트에나토'-oknirIA",
+    "에니아크래프트에나토' 「오크니리아」",
+    "에니아크래프트에나토'-「오크니리아」",
+    "에니아크래프트에나토' 「oknirIA」",
+    "에니아크래프트에나토'-「oknirIA」",
+    "에니아크래프트θ' 오크니리아",
+    "에니아크래프트θ'-오크니리아",
+    "에니아크래프트θ' oknirIA",
+    "에니아크래프트θ'-oknirIA",
+    "에니아크래프트θ' 「오크니리아」",
+    "에니아크래프트θ'-「오크니리아」",
+    "에니아크래프트θ' 「oknirIA」",
+    "에니아크래프트θ'-「oknirIA」"
+  ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Express Train Trolley Olley",
+    "name": "호완특급 트럭로코",
     "file_name": "7080743.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 400,
-    "name": "Expressroid",
+    "name": "익스프레스로이드",
     "file_name": "984114.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Flying Pegasus Railroad Stampede",
+    "name": "폭주궤도 플라잉 페가수스",
     "file_name": "88875132.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1000,
-    "name": "Frontline Observer",
+    "name": "프론트 옵저버",
     "file_name": "12451640.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 200,
-    "name": "Gadget Driver",
+    "name": "가제트 드라이버",
     "file_name": "54497620.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 300,
-    "name": "Gadget Gamer",
+    "name": "가제트 게이머",
     "file_name": "64487132.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1300,
-    "name": "Gadget Hauler",
+    "name": "가제트 트레일러",
     "file_name": "28002611.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1300,
-    "name": "Gadget Trio",
+    "name": "트리콜로르 가제트",
     "file_name": "92110878.jpg"
   },
   {
     "level_type": "link",
     "level": 3,
     "atk": 2600,
-    "name": "Gaia Saber, the Lightning Shadow",
+    "name": "전영의 기사 가이아세이버",
     "file_name": "67598234.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2600,
-    "name": "Gaming Gamer GG",
+    "name": "게이밍 게이머 GG",
     "file_name": "15778492.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2300,
-    "name": "Gear Gigant X",
+    "name": "기아기간토 X",
     "file_name": "28912357.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 800,
-    "name": "Gear Golem the Moving Fortress",
+    "name": "기동요새의 기어 골렘",
     "file_name": "30190809.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1400,
-    "name": "Geargiaccelerator",
+    "name": "기아기아크셀",
     "file_name": "47030842.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 2500,
-    "name": "Geargiagear Gigant XG",
+    "name": "기아기아기아 XG",
     "file_name": "19891310.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Geargianchor",
+    "name": "기아기아앵커",
     "file_name": "92693205.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 500,
-    "name": "Geargiano",
+    "name": "기아기아노",
     "file_name": "71786742.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Geargiano Mk-II",
-    "file_name": "1045143.jpg"
+    "name": "기아기아노 MK－Ⅱ",
+    "file_name": "1045143.jpg",
+    "aliases": [
+    "기아기아노 MK-2",
+    "기아기아노 MK-II",
+    "기아기아노 MK - 2",
+    "기아기아노 MK - II"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Geargiano Mk-III",
-    "file_name": "45286019.jpg"
+    "name": "기아기아노 MK－Ⅲ",
+    "file_name": "45286019.jpg",
+    "aliases": [
+    "기아기아노 MK-3",
+    "기아기아노 MK-III",
+    "기아기아노 MK - 3",
+    "기아기아노 MK - III"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1100,
-    "name": "Geargiarmor",
+    "name": "기아기아머",
     "file_name": "923596.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1500,
-    "name": "Geargiarsenal",
+    "name": "기아기아스날",
     "file_name": "73428497.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1900,
-    "name": "Geargiattacker",
+    "name": "기아기아태커",
     "file_name": "72370114.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Geargiauger",
+    "name": "기아기아앙그라",
     "file_name": "47687766.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2300,
-    "name": "Genex Army",
+    "name": "아미 제넥스",
     "file_name": "93211836.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Genex Searcher",
+    "name": "제넥스 서처",
     "file_name": "67483216.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1400,
-    "name": "Genex Turbine",
+    "name": "터빈 제넥스",
     "file_name": "52222372.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1800,
-    "name": "Geo Genex",
+    "name": "지오 제넥스",
     "file_name": "33972299.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1750,
-    "name": "Giant Mech-Soldier",
+    "name": "기계의 거인병",
     "file_name": "72299832.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Gimmick Puppet Egg Head",
+    "name": "기믹 퍼핏－폭탄 에그",
     "file_name": "20032555.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Gimmick Puppet Gear Changer",
+    "name": "기믹 퍼핏－기어 체인저",
     "file_name": "56427559.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1450,
-    "name": "Gizmek Taniguku, the Immobile Intellect",
+    "name": "기교와－이와타테노타니구쿠",
     "file_name": "23384666.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2250,
-    "name": "Gizmek Uka, the Festive Fox of Fecundity",
+    "name": "기교호－우카노미타마노이나리",
     "file_name": "90361289.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1800,
-    "name": "Gold Pride - Eliminator",
+    "name": "GP－어쌔시네이터",
     "file_name": "60203670.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 0,
-    "name": "Goldilocks the Battle Landscaper",
+    "name": "랜드스케이퍼 고르디록스",
     "file_name": "24521754.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 900,
-    "name": "Golgoil",
+    "name": "골고일",
     "file_name": "7526150.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 3000,
-    "name": "Googly-Eyes Drum Dragon",
+    "name": "가라쿠타아이즈 패트 드래곤",
     "file_name": "77799846.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1400,
-    "name": "Green Gadget",
+    "name": "그린 가제트",
     "file_name": "41172955.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1500,
-    "name": "Ground Attacker Bugroth",
+    "name": "지상전투형 버그로스",
     "file_name": "58314394.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 500,
-    "name": "Heavy Armored Knight Babeldecker",
+    "name": "중장기사 바벨데커",
     "file_name": "45116390.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2200,
-    "name": "Heavy Armored Train Ironwolf",
+    "name": "중장갑열차 아이언 볼프",
     "file_name": "49121795.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 2800,
-    "name": "Heavy Freight Train Derricrane",
+    "name": "중기화열차 데릭크레인",
     "file_name": "13647631.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1100,
-    "name": "Holograh",
+    "name": "홀로그라",
     "file_name": "10859908.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2300,
-    "name": "Ignition Beast Volcannon",
+    "name": "기폭수 볼캐논",
     "file_name": "10365322.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Infinitrack Anchor Drill",
+    "name": "무한기동 록앵커",
     "file_name": "62034800.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1900,
-    "name": "Infinitrack Brutal Dozer",
+    "name": "무한기동 브루탈도우저",
     "file_name": "76830505.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2100,
-    "name": "Infinitrack Crab Crane",
+    "name": "무한기동 캔서크레인",
     "file_name": "98439949.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1500,
-    "name": "Infinitrack Drag Shovel",
+    "name": "무한기동 드래그 셔블",
     "file_name": "34923554.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 3100,
-    "name": "Infinitrack Earth Slicer",
+    "name": "무한기동 어스셰이커",
     "file_name": "97584719.jpg"
   },
   {
     "level_type": "link",
     "level": 3,
     "atk": 4000,
-    "name": "Infinitrack Fortress Megaclops",
+    "name": "무한기동요새 메가톤게일",
     "file_name": "69073023.jpg"
   },
   {
     "level_type": "link",
     "level": 1,
     "atk": 1000,
-    "name": "Infinitrack Goliath",
+    "name": "무한기동 골라이아스",
     "file_name": "23689428.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 0,
-    "name": "Infinitrack Harvester",
+    "name": "무한기동 하비스터",
     "file_name": "35645105.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2100,
-    "name": "Infinitrack Mountain Smasher",
+    "name": "무한기동 코로살마운틴",
     "file_name": "60195675.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2500,
-    "name": "Infinitrack River Stormer",
+    "name": "무한기동 리바스톰",
     "file_name": "24701066.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2100,
-    "name": "Infinitrack Road Roller",
+    "name": "무한기동 로드롤러",
     "file_name": "5205146.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 500,
-    "name": "Infinitrack Trencher",
+    "name": "무한기동 트렌처",
     "file_name": "61912252.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2200,
-    "name": "Infinitrack Tunneller",
+    "name": "무한기동 스크레이퍼",
     "file_name": "97316367.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Inpachi",
+    "name": "대목인18",
     "file_name": "97923414.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1100,
-    "name": "Iron Chain Coil",
-    "file_name": "53152590.jpg"
+    "name": "C·코일",
+    "file_name": "53152590.jpg",
+    "aliases": [
+    "C코일",
+    "C 코일",
+    "C.코일",
+    "C-코일"
+    ]
   },
   {
     "level_type": "link",
     "level": 4,
     "atk": 2400,
-    "name": "Iron Knight of Revolution",
+    "name": "혁명의 철기사",
     "file_name": "662857.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Jumbo Drill",
+    "name": "천공중기 드릴점보",
     "file_name": "42851643.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2100,
-    "name": "Junk Dragonlet",
+    "name": "정크 드래곤센트",
     "file_name": "3121655.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2000,
-    "name": "Junk Giant",
+    "name": "정크 자이언트",
     "file_name": "34492631.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 300,
-    "name": "Junkuriboh",
+    "name": "정크리보",
     "file_name": "38491199.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2200,
-    "name": "K9-04 Noroi",
-    "file_name": "47960073.jpg"
+    "name": "K9-04호 노로이",
+    "file_name": "47960073.jpg",
+    "aliases": [
+    "K9 - 04호 노로이"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 400,
-    "name": "Karakuri Barrel mdl 96 \"Shinkuro\"",
-    "file_name": "92300891.jpg"
+    "name": "자동기계통 96 \"신크로\"",
+    "file_name": "92300891.jpg",
+    "aliases": [
+    "자동기계통 96 신크로"
+    ]
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2000,
-    "name": "Karakuri Bonze mdl 9763 \"Kunamzan\"",
-    "file_name": "49296203.jpg"
+    "name": "자동기계법사 9763 \"구칠육삼\"",
+    "file_name": "49296203.jpg",
+    "aliases": [
+    "자동기계법사 9763 구칠육삼"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Karakuri Bushi mdl 6318 \"Muzanichiha\"",
-    "file_name": "39118197.jpg"
+    "name": "자동기계무사 6318 \"육삼십팔\"",
+    "file_name": "39118197.jpg",
+    "aliases": [
+    "자동기계무사 6318 육삼십팔"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 200,
-    "name": "Karakuri Gama mdl 4624 \"Shirokunishi\"",
-    "file_name": "75690317.jpg"
+    "name": "자동기계두꺼비 4624 \"사육이사\"",
+    "file_name": "75690317.jpg",
+    "aliases": [
+    "자동기계무스 4624 사육이사"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 0,
-    "name": "Karakuri Komachi mdl 224 \"Ninishi\"",
-    "file_name": "24621460.jpg"
+    "name": "자동기계아가씨 224 \"이이사\"",
+    "file_name": "24621460.jpg",
+    "aliases": [
+    "자동기계아가씨 224 이이사"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 500,
-    "name": "Karakuri Merchant mdl 177 \"Inashichi\"",
-    "file_name": "30230789.jpg"
+    "name": "자동기계상인 177 \"일칠칠\"",
+    "file_name": "30230789.jpg",
+    "aliases": [
+    "자동기계상인 177 일칠칠"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2100,
-    "name": "Karakuri Muso mdl 818 \"Haipa\"",
-    "file_name": "24150026.jpg"
+    "name": "자동기계무쌍 818 \"팔일팔\"",
+    "file_name": "24150026.jpg",
+    "aliases": [
+    "자동기계무쌍 818 팔일팔"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1200,
-    "name": "Karakuri Ninja mdl 339 \"Sazank\"",
-    "file_name": "93724592.jpg"
+    "name": "자동기계첩자 339 \"삼삼구\"",
+    "file_name": "93724592.jpg",
+    "aliases": [
+    "자동기계첩자 339 삼삼구"
+    ]
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2200,
-    "name": "Karakuri Ninja mdl 7749 \"Nanashick\"",
-    "file_name": "50615578.jpg"
+    "name": "자동기계첩자 7749 \"칠칠사십구\"",
+    "file_name": "50615578.jpg",
+    "aliases": [
+    "자동기계첩자 7749 칠칠사십구"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1700,
-    "name": "Karakuri Ninja mdl 919 \"Kuick\"",
-    "file_name": "6276588.jpg"
+    "name": "자동기계첩자 919 \"구일구\"",
+    "file_name": "6276588.jpg",
+    "aliases": [
+    "자동기계첩자 919 구일구"
+    ]
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2600,
-    "name": "Karakuri Shogun mdl 00 \"Burei\"",
-    "file_name": "23874409.jpg"
+    "name": "자동기계장군 00 \"무령\"",
+    "file_name": "23874409.jpg",
+    "aliases": [
+    "자동기계장군 00 무령"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1400,
-    "name": "Karakuri Soldier mdl 236 \"Nisamu\"",
-    "file_name": "3846170.jpg"
+    "name": "자동기계병 236 \"이삼육\"",
+    "file_name": "3846170.jpg",
+    "aliases": [
+    "자동기계병 236 이삼육"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 400,
-    "name": "Karakuri Spider",
+    "name": "자동기계 거미",
     "file_name": "45688586.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2800,
-    "name": "Karakuri Steel Shogun mdl 00X \"Bureido\"",
+    "name": "자동기계대장군 무령노",
     "file_name": "66976526.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 500,
-    "name": "Karakuri Strategist mdl 248 \"Nishipachi\"",
-    "file_name": "66625883.jpg"
+    "name": "자동기계참모 248 \"이사팔\"",
+    "file_name": "66625883.jpg",
+    "aliases": [
+    "자동기계참모 248 이사팔"
+    ]
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 3000,
-    "name": "Karakuri Super Shogun mdl 00N \"Bureibu\"",
+    "name": "자동기계대권현 무령무",
     "file_name": "25904894.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 600,
-    "name": "Karakuri Watchdog mdl 313 \"Saizan\"",
-    "file_name": "70271583.jpg"
+    "name": "자동기계수위 313 \"삼일삼\"",
+    "file_name": "70271583.jpg",
+    "aliases": [
+    "자동기계수위 313 삼일삼"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2100,
-    "name": "Koa'ki Meiru Powerhand",
+    "name": "코아키메일 파워핸드",
     "file_name": "19642889.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 300,
-    "name": "Lefty Driver",
+    "name": "레프티 드라이버",
     "file_name": "44935634.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 0,
-    "name": "Legendary Dueling Field",
+    "name": "전설의 결투장",
     "file_name": "55343172.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2400,
-    "name": "Lionhearted Locomotive",
+    "name": "용기기관차 브레이브폭폭",
     "file_name": "61692648.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1500,
-    "name": "Machina Air Raider",
+    "name": "머시너즈 에어레이더",
     "file_name": "23469398.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 0,
-    "name": "Machina Cannon",
+    "name": "머시너즈 캐논",
     "file_name": "39284521.jpg"
   },
   {
@@ -1210,1253 +1370,1601 @@
     "name": "머시너즈 카넬",
     "file_name": "87074380.jpg",
     "aliases": [
-    "카넬"
+    "카넬",
+    "죽여주마"
     ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Machina Defender",
+    "name": "머시너즈 디펜더",
     "file_name": "96384007.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 4600,
-    "name": "Machina Force",
+    "name": "머시너즈 포스",
     "file_name": "58054262.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2500,
-    "name": "Machina Fortress",
+    "name": "머시너즈 포트리스",
     "file_name": "5556499.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Machina Gearframe",
-    "file_name": "42940404.jpg"
+    "name": "머시너즈 기어프레임",
+    "file_name": "42940404.jpg",
+    "aliases": [
+    "일렉트로닉"
+    ]
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1700,
-    "name": "Machina Irradiator",
+    "name": "머시너즈 래디에이터",
     "file_name": "50863093.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2600,
-    "name": "Machina Megaform",
+    "name": "머시너즈 메가폼",
     "file_name": "51617185.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 2800,
-    "name": "Machina Metalcruncher",
+    "name": "머시너즈 메탈크런치",
     "file_name": "69838761.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 500,
-    "name": "Machina Peacekeeper",
+    "name": "머시너즈 피스키퍼",
     "file_name": "78349103.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Machina Sniper",
+    "name": "머시너즈 스나이퍼",
     "file_name": "23782705.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Machina Soldier",
+    "name": "머시너즈 솔저",
     "file_name": "60999392.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1600,
-    "name": "Machine Attacker",
+    "name": "머신 어택커",
     "file_name": "38116136.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2200,
-    "name": "Machine King",
+    "name": "기계왕",
     "file_name": "46700124.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1600,
-    "name": "Machine King Prototype",
-    "file_name": "89222931.jpg"
+    "name": "기계왕-프로토타입",
+    "file_name": "89222931.jpg",
+    "aliases": [
+    "기계왕 - 프로토타입"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Machine Lord Ur",
+    "name": "신기왕 우르",
     "file_name": "96938777.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 500,
-    "name": "Magical Hound",
+    "name": "매지컬 하운드",
     "file_name": "51916853.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2000,
-    "name": "Magikey Mechmortar - Garesglasser",
-    "file_name": "45877457.jpg"
+    "name": "마건포-가레스베트",
+    "file_name": "45877457.jpg",
+    "aliases": [
+    "마건포 - 가레스베트"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 800,
-    "name": "Mecha Bunny",
+    "name": "메카토끼",
     "file_name": "10110717.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2800,
-    "name": "Mechanical Hound",
+    "name": "메커니컬 하운드",
     "file_name": "22512237.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Meklord Army of Granel",
+    "name": "기황병 그란엘 아인",
     "file_name": "2137678.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Meklord Emperor Granel",
-    "file_name": "4545683.jpg"
+    "name": "기황제 그란엘∞",
+    "file_name": "4545683.jpg",
+    "aliases": [
+    "기황제 그란엘 인피니티",
+    "기황제 그란엘인피니티"
+    ]
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 0,
-    "name": "Meteor Rush - Monochroid",
-    "file_name": "99748883.jpg"
+    "name": "메테오러시-시로쿠로이드",
+    "file_name": "99748883.jpg",
+    "aliases": [
+    "메테오러시 - 시로쿠로이드"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Mighty Guard",
+    "name": "마이티 가드",
     "file_name": "62327910.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 300,
-    "name": "Mimimic",
+    "name": "미미믹",
     "file_name": "45651298.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1500,
-    "name": "Minefieldriller",
+    "name": "마인필드",
     "file_name": "24419823.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1500,
-    "name": "Monster Express",
+    "name": "몬스터익스프레스",
     "file_name": "637216.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 500,
-    "name": "Morphtronic Boarden",
-    "file_name": "48381268.jpg"
+    "name": "D·보든",
+    "file_name": "48381268.jpg",
+    "aliases": [
+    "D보든",
+    "D 보든",
+    "D.보든",
+    "D-보든"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Morphtronic Boomboxen",
-    "file_name": "92720564.jpg"
+    "name": "D·라디카셋",
+    "file_name": "92720564.jpg",
+    "aliases": [
+    "D라디카셋",
+    "D 라디카셋",
+    "D.라디카셋",
+    "D-라디카셋"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Morphtronic Celfon",
-    "file_name": "93542102.jpg"
+    "name": "D·모바폰",
+    "file_name": "93542102.jpg",
+    "aliases": [
+    "D모바폰",
+    "D 모바폰",
+    "D.모바폰",
+    "D-모바폰"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 600,
-    "name": "Morphtronic Clocken",
-    "file_name": "91607976.jpg"
+    "name": "D·클락큰",
+    "file_name": "91607976.jpg",
+    "aliases": [
+    "D클락큰",
+    "D 클락큰",
+    "D.클락큰",
+    "D-클락큰"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Morphtronic Earfon",
-    "file_name": "37260946.jpg"
+    "name": "D·이어폰",
+    "file_name": "37260946.jpg",
+    "aliases": [
+    "D이어폰",
+    "D 이어폰",
+    "D.이어폰",
+    "D-이어폰"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 300,
-    "name": "Morphtronic Remoten",
-    "file_name": "57108202.jpg"
+    "name": "D·리모콘",
+    "file_name": "57108202.jpg",
+    "aliases": [
+    "D리모콘",
+    "D 리모콘",
+    "D.리모콘",
+    "D-리모콘"
+    ]
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1500,
-    "name": "Morphtronic Scannen",
-    "file_name": "1876841.jpg"
+    "name": "D·스캐넌",
+    "file_name": "1876841.jpg",
+    "aliases": [
+    "D스캐넌",
+    "D 스캐넌",
+    "D.스캐넌",
+    "D-스캐넌"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Morphtronic Smartfon",
-    "file_name": "15521027.jpg"
+    "name": "D·스마폰",
+    "file_name": "15521027.jpg",
+    "aliases": [
+    "D스마폰",
+    "D 스마폰",
+    "D.스마폰",
+    "D-스마폰"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1400,
-    "name": "Morphtronic Staplen",
-    "file_name": "2250266.jpg"
+    "name": "D·스태플랜",
+    "file_name": "2250266.jpg",
+    "aliases": [
+    "D스태플랜",
+    "D 스태플랜",
+    "D.스태플랜",
+    "D-스태플랜"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Morphtronic Telefon",
-    "file_name": "38082437.jpg"
+    "name": "D·텔레폰",
+    "file_name": "38082437.jpg",
+    "aliases": [
+    "D텔레폰",
+    "D 텔레폰",
+    "D.텔레폰",
+    "D-텔레폰"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Nanobreaker",
+    "name": "나노브레이커",
     "file_name": "70948327.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Needle Soldier",
+    "name": "니들 거너",
     "file_name": "17841097.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Nehshaddoll Genius",
+    "name": "네프섀도르 게니우스",
     "file_name": "66675911.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 3000,
-    "name": "Night Express Knight",
+    "name": "심야 급행 기사 나이트 익스프레스 나이트",
     "file_name": "51126152.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 2500,
-    "name": "Night Train Blue Traveler",
+    "name": "야광열차 블루트래블러",
     "file_name": "81101309.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 3200,
-    "name": "Number 81: Superdreadnought Rail Cannon Super Dora",
+    "name": "No.81 초노급포탑열차 슈페리어 도라",
     "file_name": "49032236.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 400,
-    "name": "Oilman",
+    "name": "오일맨",
     "file_name": "31768112.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1400,
-    "name": "Oni Tank T-34",
-    "file_name": "66927994.jpg"
+    "name": "도깨비 탱크 T-34",
+    "file_name": "66927994.jpg",
+    "aliases": [
+    "도깨비 탱크 T - 34"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Overdrive",
+    "name": "개틀링 버기",
     "file_name": "2311603.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1600,
-    "name": "Pair Cycroid",
+    "name": "페어싸이크로이드",
     "file_name": "16114248.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Patroid",
+    "name": "패트로이드",
     "file_name": "71930383.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1100,
-    "name": "Patrol Robo",
+    "name": "패트롤 로보",
     "file_name": "76775123.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2700,
-    "name": "Perfect Machine King",
+    "name": "퍼펙트 기계왕",
     "file_name": "18891691.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1000,
-    "name": "Planet Pathfinder",
+    "name": "플래닛 패스파인더",
     "file_name": "97526666.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 2500,
-    "name": "Power Tool Braver Dragon",
+    "name": "파워 툴 브레이버 드래곤",
     "file_name": "63265554.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2300,
-    "name": "Power Tool Dragon",
+    "name": "파워 툴 드래곤",
     "file_name": "2403771.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2700,
-    "name": "Powered Crawler",
+    "name": "파워드 크로울러",
     "file_name": "87742943.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 800,
-    "name": "Pritima the Infinity Cubic Vessel",
+    "name": "무궁방계기 프리티마",
     "file_name": "100460001.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Proto Enneacraft - \"orgIA\"",
-    "file_name": "56187077.jpg"
+    "name": "에니아크래프트α’－「orgIA」",
+    "file_name": "56187077.jpg",
+    "aliases": [
+    "에니아크래프트프로토 오르기아",
+    "에니아크래프트프로토-오르기아",
+    "에니아크래프트프로토 orgIA",
+    "에니아크래프트프로토-orgIA",   
+    "에니아크래프트프로토 「오르기아」",
+    "에니아크래프트프로토-「오르기아」",
+    "에니아크래프트프로토 「orgIA」",
+    "에니아크래프트프로토-「orgIA」",
+    "에니아크래프트프로토' 오르기아",
+    "에니아크래프트프로토'-오르기아",
+    "에니아크래프트프로토' orgIA",
+    "에니아크래프트프로토'-orgIA",
+    "에니아크래프트프로토' 「오르기아」",
+    "에니아크래프트프로토'-「오르기아」",
+    "에니아크래프트프로토' 「orgIA」",
+    "에니아크래프트프로토'-「orgIA」",
+    "에니아크래프트α' 오르기아",
+    "에니아크래프트α'-오르기아",
+    "에니아크래프트α' orgIA",
+    "에니아크래프트α'-orgIA",
+    "에니아크래프트α' 「오르기아」",
+    "에니아크래프트α'-「오르기아」",
+    "에니아크래프트α' 「orgIA」",
+    "에니아크래프트α'-「orgIA」"
+  ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1400,
-    "name": "Pursuit Chaser",
+    "name": "체이스 스커드",
     "file_name": "27870033.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2400,
-    "name": "Qliphort Carrier",
+    "name": "클리포트 아카이브",
     "file_name": "91907707.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2800,
-    "name": "Qliphort Cephalopod",
+    "name": "클리포트 액세스",
     "file_name": "87588741.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2800,
-    "name": "Qliphort Disk",
+    "name": "클리포트 디스크",
     "file_name": "64496451.jpg"
   },
   {
     "level_type": "link",
     "level": 2,
     "atk": 1800,
-    "name": "Qliphort Genius",
+    "name": "클리포트 게니우스",
     "file_name": "22423493.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2400,
-    "name": "Qliphort Helix",
+    "name": "클리포트 게놈",
     "file_name": "37991342.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2400,
-    "name": "Qliphort Monolith",
+    "name": "클리포트 어셈블러",
     "file_name": "51194046.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1000,
-    "name": "Qliphort Scout",
+    "name": "클리포트 툴",
     "file_name": "65518099.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2800,
-    "name": "Qliphort Shell",
+    "name": "클리포트 쉘",
     "file_name": "90885155.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2800,
-    "name": "Qliphort Stealth",
+    "name": "클리포트 에일리어스",
     "file_name": "13073850.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Quick-Span Knight",
+    "name": "퀵 스파나이트",
     "file_name": "11287364.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 800,
-    "name": "Quillbolt Hedgehog",
+    "name": "볼트 고슴도치",
     "file_name": "23571046.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 800,
-    "name": "R-Genex Crusher",
+    "name": "레알 제넥스 크러셔",
     "file_name": "65149697.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "R-Genex Ultimum",
+    "name": "레알 제넥스 울티멈",
     "file_name": "46572756.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 700,
-    "name": "R.B. Ga10 Cutter",
+    "name": "R.B.GA10 커터",
     "file_name": "33438265.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 500,
-    "name": "R.B. Ga10 Driller",
+    "name": "R.B.GA10 드릴러",
     "file_name": "6043161.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1500,
-    "name": "R.B. Ga10 Pile Bunker",
+    "name": "R.B.GA10 파일벙커",
     "file_name": "44573911.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1300,
-    "name": "Red Gadget",
+    "name": "레드 가제트",
     "file_name": "86445415.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 900,
-    "name": "Revolution Synchron",
+    "name": "레볼루션 싱크론",
     "file_name": "97682931.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Righty Driver",
+    "name": "라이티 드라이버",
     "file_name": "60071928.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 450,
-    "name": "Robolady",
+    "name": "레어메탈 레이디",
     "file_name": "92421852.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 900,
-    "name": "Roboyarou",
+    "name": "레어메탈 솔저",
     "file_name": "38916461.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 5000,
-    "name": "Rocket Arrow Express",
+    "name": "폭주특급 로켓 애로우",
     "file_name": "79850798.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1900,
-    "name": "Royal Guard",
+    "name": "로열 가드",
     "file_name": "39239728.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Ruffian Railcar",
+    "name": "무뢰특급 바트레인",
     "file_name": "24919805.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 2100,
-    "name": "Rustin Mammoth",
+    "name": "러스틴 맘모스",
     "file_name": "3434362.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 500,
-    "name": "Sage of Wisdom - Himmel",
-    "file_name": "22790910.jpg"
+    "name": "지의 현자-힘멜",
+    "file_name": "22790910.jpg",
+    "aliases": [
+    "지의 현자 - 힘멜"
+    ]
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 2600,
-    "name": "Samurai Destroyer",
+    "name": "디스트로이 사무라이",
     "file_name": "40509732.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2100,
-    "name": "Scrap Breaker",
+    "name": "스크랩 브레이커",
     "file_name": "51555725.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1600,
-    "name": "Scrap Hunter",
+    "name": "스크랩 헌터",
     "file_name": "55624610.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Scrap Mind Reader",
+    "name": "스크랩 마인드리더",
     "file_name": "67038874.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 900,
-    "name": "Scrap Recycler",
+    "name": "스크랩 리사이클러",
     "file_name": "4334811.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 700,
-    "name": "Scrap Synchron",
+    "name": "스크랩 싱크론",
     "file_name": "16449363.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 900,
-    "name": "Shovel Crusher",
+    "name": "샤벨 크러셔",
     "file_name": "71950093.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1600,
-    "name": "Shreddder",
+    "name": "슈레츠더",
     "file_name": "3603242.jpg"
   },
   {
     "level_type": "link",
     "level": 1,
     "atk": 1500,
-    "name": "Sky Striker Ace - Kaina",
-    "file_name": "12421694.jpg"
+    "name": "섬도희-카이나",
+    "file_name": "12421694.jpg",
+    "aliases": [
+    "섬도희 - 카이나"
+    ]
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 2500,
-    "name": "Snow Plow Hustle Rustle",
+    "name": "제설기관차 허슬 러셀",
     "file_name": "24731453.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1000,
-    "name": "SPYRAL GEAR - Last Resort",
-    "file_name": "37433748.jpg"
+    "name": "SPYRAL GEAR-라스트 리조트",
+    "file_name": "37433748.jpg",
+    "aliases": [
+    "SPYRAL GEAR - 라스트 리조트",
+    "스파이랄 기어 - 라스트 리조트",
+    "스파이랄 기어-라스트 리조트"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 500,
-    "name": "SPYRAL Quik-Fix",
-    "file_name": "78080961.jpg"
+    "name": "SPYRAL-지니어스",
+    "file_name": "78080961.jpg",
+    "SPYRAL - 지니어스",
+    "스파이랄-지니어스",
+    "스파이랄 - 지니어스"
+    ]
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 2200,
-    "name": "Steam Gyroid",
+    "name": "스팀자이로이드",
     "file_name": "5368615.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1800,
-    "name": "Steamroid",
+    "name": "스팀로이드",
     "file_name": "44729197.jpg"
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1400,
-    "name": "Steel Ogre Grotto #1",
+    "name": "강철의 거신상",
     "file_name": "29172562.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1900,
-    "name": "Steel Ogre Grotto #2",
+    "name": "철완 골렘",
     "file_name": "90908427.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 250,
-    "name": "Steel Scorpion",
+    "name": "강철의 스콜피온",
     "file_name": "13599884.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1400,
-    "name": "Super Defense Robot Elephan",
+    "name": "SD 로보 엘레판",
     "file_name": "45496268.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Super Defense Robot Lio",
+    "name": "SD 로보 라이오",
     "file_name": "8091563.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 800,
-    "name": "Super Defense Robot Monki",
+    "name": "SD 로보 몽키",
     "file_name": "71880877.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 3000,
-    "name": "Super Express Bullet Train",
+    "name": "탄환특급 불릿 라이너",
     "file_name": "52481437.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1200,
-    "name": "Super Robolady",
+    "name": "레어메탈 발키리",
     "file_name": "75923050.jpg"
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 1200,
-    "name": "Super Roboyarou",
+    "name": "레어메탈 나이트",
     "file_name": "1412158.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 0,
-    "name": "Super Vehicroid - Mobile Base",
+    "name": "슈퍼 비크로이드 모빌베이스",
     "file_name": "17745969.jpg"
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 3600,
-    "name": "Super Vehicroid - Stealth Union",
+    "name": "슈퍼 비크로이드 스텔스 유니온",
     "file_name": "3897065.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 3000,
-    "name": "Super Vehicroid Jumbo Drill",
+    "name": "슈퍼 비크로이드 점보 드릴",
     "file_name": "36256625.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 3800,
-    "name": "Superdreadnought Rail Cannon Flying Launcher",
+    "name": "초노급포탑열차 플라잉 런처",
     "file_name": "38354018.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 3000,
-    "name": "Superdreadnought Rail Cannon Gustav Max",
-    "file_name": "56910167.jpg"
+    "name": "초노급포탑열차 구스타프 맥스",
+    "file_name": "56910167.jpg",
+    "aliases": [
+    "기모찌"
+    ]
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 5000,
-    "name": "Superdreadnought Rail Cannon Gustav Rocket",
-    "file_name": "92359409.jpg"
+    "name": "초노급포탑열차 구스타프 로켓",
+    "file_name": "92359409.jpg",
+    "aliases": [
+    "기모찌이"
+    ]
   },
   {
     "level_type": "level",
     "level": 11,
     "atk": 4000,
-    "name": "Superdreadnought Rail Cannon Juggernaut Liebe",
-    "file_name": "26096328.jpg"
+    "name": "초노급포탑열차 저거너트 리베",
+    "file_name": "26096328.jpg",
+    "aliases": [
+    "기모찌이이"
+    ]
   },
   {
     "level_type": "level",
     "level": 9,
     "atk": 1900,
-    "name": "Superheavy Samurai Beast Kyubi",
-    "file_name": "85528209.jpg"
+    "name": "초중마수 큐우-B",
+    "file_name": "85528209.jpg",
+    "aliases": [
+    "초중마수 큐우 비",
+    "초중마수 큐우-비",
+    "초중마수 큐우 B"
+    ]
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1000,
-    "name": "Superheavy Samurai Big Benkei",
-    "file_name": "3117804.jpg"
+    "name": "초중무사 빅벤－K",
+    "file_name": "3117804.jpg",
+    "aliases": [
+    "초중무사 빅벤 케이",
+    "초중무사 빅벤-케이",
+    "초중무사 빅벤 K"
+    ]
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 800,
-    "name": "Superheavy Samurai Big Waraji",
-    "file_name": "36523152.jpg"
+    "name": "초중무사 빅와라-G",
+    "file_name": "36523152.jpg",
+    "aliases": [
+    "초중무사 빅와라 지",
+    "초중무사 빅와라-지",
+    "초중무사 빅와라 G"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 500,
-    "name": "Superheavy Samurai Blowtorch",
-    "file_name": "7864030.jpg"
+    "name": "초중무사 타이머-2",
+    "file_name": "7864030.jpg",
+    "aliases": [
+    "초중무사 타이머 투",
+    "초중무사 타이머-투",
+    "초중무사 타이머 2"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 0,
-    "name": "Superheavy Samurai Blue Brawler",
-    "file_name": "41628550.jpg"
+    "name": "초중무사 워커-02",
+    "file_name": "41628550.jpg",
+    "aliases": [
+    "초중무사 워커 오이",
+    "초중무사 워커-오이",
+    "초중무사 워커 02"
+    ]
   },
   {
     "level_type": "level",
     "level": 12,
     "atk": 2100,
-    "name": "Superheavy Samurai Brave Masurawo",
-    "file_name": "64193046.jpg"
+    "name": "초중천신 마스라-O",
+    "file_name": "64193046.jpg",
+    "aliases": [
+    "초중천신 마스라 오",
+    "초중천신 마스라-오",
+    "초중천신 마스라 O"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 300,
-    "name": "Superheavy Samurai Drum",
-    "file_name": "87535691.jpg"
+    "name": "초중무사 츠즈-3",
+    "file_name": "87535691.jpg",
+    "aliases": [
+    "초중무사 츠즈 삼",
+    "초중무사 츠즈-삼",
+    "초중무사 츠즈 3"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 900,
-    "name": "Superheavy Samurai Fist",
-    "file_name": "71386411.jpg"
+    "name": "초중무사 코부－C",
+    "file_name": "71386411.jpg",
+    "aliases": [
+    "초중무사 코부 시",
+    "초중무사 코부-시",
+    "초중무사 코부 C"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 500,
-    "name": "Superheavy Samurai Flutist",
-    "file_name": "27978707.jpg"
+    "name": "초중무사 카게보-C",
+    "file_name": "27978707.jpg",
+    "aliases": [
+    "초중무사 카게보 씨",
+    "초중무사 카게보-씨",
+    "초중무사 카게보 C"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 300,
-    "name": "Superheavy Samurai General Coral",
-    "file_name": "78274190.jpg"
+    "name": "초중휘장 산-5",
+    "file_name": "78274190.jpg",
+    "aliases": [
+    "초중황신 산 오",
+    "초중황신 산-오",
+    "초중휘장 산 5"
+    ]
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1800,
-    "name": "Superheavy Samurai General Jade",
-    "file_name": "42880485.jpg"
+    "name": "초중휘장 히스－E",
+    "file_name": "42880485.jpg",
+    "aliases": [
+    "초중휘장 히스 이",
+    "초중휘장 히스-이",
+    "초중휘장 히스 E"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 100,
-    "name": "Superheavy Samurai Gigagloves",
-    "file_name": "62017867.jpg"
+    "name": "초중무사 글로-V",
+    "file_name": "62017867.jpg",
+    "aliases": [
+    "초중무사 글로 브이",
+    "초중무사 글로-브이",
+    "초중무사 글로 V"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Superheavy Samurai Helper",
-    "file_name": "44891812.jpg"
+    "name": "초중무사 오타스-K",
+    "file_name": "44891812.jpg",
+    "aliases": [
+    "초중무사 오타스 케이",
+    "초중무사 오타스-케이",
+    "초중무사 오타스 K"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1000,
-    "name": "Superheavy Samurai Kabuto",
-    "file_name": "41307269.jpg"
+    "name": "초중무사 카부-10",
+    "file_name": "41307269.jpg",
+    "aliases": [
+    "초중무사 카부 십",
+    "초중무사 카부-십",
+    "초중무사 카부 10"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 900,
-    "name": "Superheavy Samurai Magnet",
-    "file_name": "89091772.jpg"
+    "name": "초중무사 지샤-Q",
+    "file_name": "89091772.jpg",
+    "aliases": [
+    "초중무사 지샤 큐",
+    "초중무사 지샤-큐",
+    "초중무사 지샤 Q"
+    ]
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 1000,
-    "name": "Superheavy Samurai Monk Big Benkei",
-    "file_name": "19510093.jpg"
+    "name": "초중승병 빅벤-K",
+    "file_name": "19510093.jpg",
+    "aliases": [
+    "초중승병 빅벤 케이",
+    "초중승병 빅벤-케이",
+    "초중승병 빅벤 K"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 800,
-    "name": "Superheavy Samurai Motorbike",
-    "file_name": "83334932.jpg"
+    "name": "초중무사 바이-Q",
+    "file_name": "83334932.jpg",
+    "aliases": [
+    "초중무사 바이 큐",
+    "초중무사 바이-큐",
+    "초중무사 바이 Q"
+    ]
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2000,
-    "name": "Superheavy Samurai Ninja Sarutobi",
-    "file_name": "76471944.jpg"
+    "name": "초중첩자 사루토-B",
+    "file_name": "76471944.jpg",
+    "aliases": [
+    "초중첩자 사루토 비",
+    "초중첩자 사루토-비",
+    "초중첩자 사루토 B"
+    ]
   },
   {
     "level_type": "level",
     "level": 6,
     "atk": 500,
-    "name": "Superheavy Samurai Ogre Shutendoji",
-    "file_name": "36953371.jpg"
+    "name": "초중신귀 슈텐도-G",
+    "file_name": "36953371.jpg",
+    "aliases": [
+    "초중신귀 슈텐도-지",
+    "초중신귀 슈텐도-쥐",
+    "초중신귀 슈텐도 지",
+    "초중신귀 슈텐도 쥐",
+    "초중신귀 슈텐도 G"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 100,
-    "name": "Superheavy Samurai Prepped Defense",
-    "file_name": "15495787.jpg"
+    "name": "초중무사 코코로가마-A",
+    "file_name": "15495787.jpg",
+    "aliases": [
+    "초중무사 코코로가마 에이",
+    "초중무사 코코로가마-에이",
+    "초중무사 코코로가마 A"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 800,
-    "name": "Superheavy Samurai Scales",
-    "file_name": "78391364.jpg"
+    "name": "초중무사 텐B-N",
+    "file_name": "78391364.jpg",
+    "aliases": [
+    "초중무사 텐빈",
+    "초중무사 텐비-엔", 
+    "초중무사 텐비 엔",
+    "초중무사 텐B N"
+    ]
   },
   {
     "level_type": "link",
     "level": 1,
     "atk": 0,
-    "name": "Superheavy Samurai Scarecrow",
-    "file_name": "33918636.jpg"
+    "name": "초중무사 카카-C",
+    "file_name": "33918636.jpg",
+    "aliases": [
+    "초중무사 카카 씨",
+    "초중무사 카카-씨",
+    "초중무사 카카 C"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 500,
-    "name": "Superheavy Samurai Security",
-    "file_name": "5182107.jpg"
+    "name": "초중무사 도우C-N",
+    "file_name": "5182107.jpg",
+    "aliases": [
+    "초중무사 도우신",
+    "초중무사 도우씨-엔",
+    "초중무사 도우씨 엔",
+    "초중무사 도우C N"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Superheavy Samurai Soulbang Cannon",
+    "name": "초중무사소울 빅뱅",
     "file_name": "3064425.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Superheavy Samurai Soulbeads",
+    "name": "초중무사소울 부활의 염주",
     "file_name": "27756115.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Superheavy Samurai Soulbreaker Armor",
+    "name": "초중무사소울 브레이크 아머",
     "file_name": "77679716.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Superheavy Samurai Soulbuster Gauntlet",
+    "name": "초중무사소울 버스터 건틀릿",
     "file_name": "35800511.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 500,
-    "name": "Superheavy Samurai Soulclaw",
+    "name": "초중무사소울 샤인 클로",
     "file_name": "40028305.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 0,
-    "name": "Superheavy Samurai Soulgaia Booster",
+    "name": "초중무사소울 가이아 부스터",
     "file_name": "56727340.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Superheavy Samurai Soulhorns",
+    "name": "초중무사소울 더블 혼",
     "file_name": "14624296.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Superheavy Samurai Soulpeacemaker",
+    "name": "초중무사소울 츄우사이",
     "file_name": "95500396.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Superheavy Samurai Soulpiercer",
+    "name": "초중무사소울 석궁",
     "file_name": "90361010.jpg"
+    "aliases": [
+    "석궁"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1200,
-    "name": "Superheavy Samurai Soulshield Wall",
+    "name": "초중무사소울 그레이트 월",
     "file_name": "31181711.jpg"
   },
   {
     "level_type": "level",
     "level": 7,
     "atk": 1200,
-    "name": "Superheavy Samurai Stealth Ninja",
-    "file_name": "50065971.jpg"
+    "name": "초중첩자 시노비-A·C",
+    "file_name": "50065971.jpg",
+    "aliases": [
+    "초중첩자 시노비 에이씨",
+    "초중첩자 시노비-에이씨",
+    "초중첩자 시노비 AC",
+    "초중첩자 시노비-AC"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 200,
-    "name": "Superheavy Samurai Stealthy",
-    "file_name": "10333641.jpg"
+    "name": "초중무사 온-32",
+    "file_name": "10333641.jpg",
+    "aliases": [
+    "초중무사 온-미츠",
+    "초중무사 온 미츠",
+    "초중무사 온-삼이",
+    "초중무사 온 삼이",
+    "초중무사 온 32",
+    ]
   },
   {
     "level_type": "level",
     "level": 12,
     "atk": 2000,
-    "name": "Superheavy Samurai Steam Train King",
-    "file_name": "17775525.jpg"
+    "name": "초중증귀 테츠도-O",
+    "file_name": "17775525.jpg",
+    "aliases": [
+    "초중증귀 테츠도-오",
+    "초중증귀 테츠도 오",
+    "초중증귀 테츠도 O"
+    ]
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 300,
-    "name": "Superheavy Samurai Swordmaster Musashi",
-    "file_name": "75988594.jpg"
+    "name": "초중검성 무사-C",
+    "file_name": "75988594.jpg",
+    "aliases": [
+    "초중검성 무사-씨",
+    "초중검성 무사 씨",
+    "초중검성 무사 C"
+    ]
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Superheavy Samurai Swordsman",
-    "file_name": "77013169.jpg"
+    "name": "초중무사 스워드-999",
+    "file_name": "77013169.jpg",
+    "aliases": [
+    "초중무사 스워드-구구구",
+    "초중무사 스워드 구구구",
+    "초중무사 스워드 999"
+    ]
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 1000,
-    "name": "Superheavy Samurai Thief",
-    "file_name": "14756848.jpg"
+    "name": "초중무사 누스-10",
+    "file_name": "14756848.jpg",
+    "aliases": [
+    "초중무사 누스-십",
+    "초중무사 누스 십",
+    "초중무사 누스 10"
+    ]
   },
   {
     "level_type": "level",
     "level": 5,
     "atk": 1200,
-    "name": "Superheavy Samurai Transporter",
-    "file_name": "41141943.jpg"
+    "name": "초중무사 히캬-Q",
+    "file_name": "41141943.jpg",
+    "aliases": [
+    "초중무사 히캬-큐",
+    "초중무사 히캬 큐",
+    "초중무사 히캬 Q"
+    ]
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 300,
-    "name": "Superheavy Samurai Trumpeter",
-    "file_name": "64373401.jpg"
+    "name": "초중무사 호라가-E",
+    "file_name": "64373401.jpg",
+    "aliases": [
+    "초중무사 호라가-이",
+    "초중무사 호라가 이",
+    "초중무사 호라가 E"
+    ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Superheavy Samurai Wagon",
-    "file_name": "34496660.jpg"
+    "name": "초중무사 다이-8",
+    "file_name": "34496660.jpg",
+    "aliases": [
+    "초중무사 다이-하치",
+    "초중무사 다이 하치",
+    "초중무사 다이-팔",
+    "초중무사 다이 팔",
+    "초중무사 다이 8"
+    ]
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 2400,
-    "name": "Superheavy Samurai Warlord Susanowo",
-    "file_name": "494922.jpg"
+    "name": "초중황신 스사노-O",
+    "file_name": "494922.jpg",
+    "aliases": [
+    "초중황신 스사노-오",
+    "초중황신 스사노 오",
+    "초중황신 스사노 O"
+    ]
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Swift Scarecrow",
+    "name": "속공의 허수아비",
     "file_name": "18964575.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 1000,
-    "name": "Synchro Magnet",
+    "name": "싱크로 마그네터",
     "file_name": "50702124.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Synchro Soldier",
+    "name": "싱크로 거너",
     "file_name": "79796561.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 0,
-    "name": "Synchron Carrier",
+    "name": "싱크론 캐리어",
     "file_name": "62125438.jpg"
   },
   {
     "level_type": "level",
     "level": 2,
     "atk": 0,
-    "name": "Synchron Explorer",
+    "name": "싱크론 익스플로러",
     "file_name": "36643046.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 3300,
-    "name": "T.G. Blade Blaster",
-    "file_name": "51447164.jpg"
+    "name": "TG 블레이드 건맨",
+    "file_name": "51447164.jpg",
+    "aliases": [
+    "테크지너스 블레이드 건맨"
+    ]
   },
   {
     "level_type": "level",
     "level": 12,
     "atk": 4000,
-    "name": "T.G. Glaive Blaster",
-    "file_name": "95973569.jpg"
+    "name": "TG 글레이브 블래스터",
+    "file_name": "95973569.jpg",
+    "aliases": [
+    "테크지너스 글레이브 블래스터"
+    ]
   },
   {
     "level_type": "level",
     "level": 12,
     "atk": 4000,
-    "name": "T.G. Halberd Cannon",
-    "file_name": "97836203.jpg"
+    "name": "TG 할 버드 캐논",
+    "file_name": "97836203.jpg",
+    "aliases": [
+    "테크지너스 할 버드 캐논"
+    ]
   },
   {
     "level_type": "level",
     "level": 12,
     "atk": 4500,
-    "name": "T.G. Halberd Cannon/Assault Mode",
-    "file_name": "47027714.jpg"
+    "name": "TG 할 버드 캐논/버스터",
+    "file_name": "47027714.jpg",
+    "aliases": [
+    "테크지너스 할 버드 캐논/버스터"
+    ]
   },
   {
     "level_type": "link",
     "level": 3,
     "atk": 2200,
-    "name": "T.G. Trident Launcher",
-    "file_name": "50750868.jpg"
+    "name": "TG 트라이든트 런처",
+    "file_name": "50750868.jpg",
+    "aliases": [
+    "테크지너스 트라이든트 런처"
+    ]
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2800,
-    "name": "Therion \"King\" Regulus",
+    "name": "세리온즈 \"킹\" 레귤러스",
     "file_name": "10604644.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 2800,
-    "name": "Tilting Entrainment",
+    "name": "진자특급 엔트레인먼트",
     "file_name": "77855162.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 2200,
-    "name": "Tin Archduke",
+    "name": "양철 대공",
     "file_name": "66506689.jpg"
   },
   {
     "level_type": "level",
     "level": 8,
     "atk": 3000,
-    "name": "Toon Ancient Gear Golem",
+    "name": "툰 앤틱 기어 골렘",
     "file_name": "7171149.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 200,
-    "name": "Toy Knight",
+    "name": "토이나이토",
     "file_name": "1826676.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 300,
-    "name": "Tricular",
+    "name": "트라이클러",
     "file_name": "20797524.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Trito Enneacraft - \"exapatisIA\"",
-    "file_name": "44716748.jpg"
+    "name": "에니아크래프트γ'-「exapatisIA」",
+    "file_name": "44716748.jpg",
+    "aliases": [
+    "에니아크래프트투리토 엑사파티시아",
+    "에니아크래프트투리토-엑사파티시아",
+    "에니아크래프트투리토 exapatisIA",
+    "에니아크래프트투리토-exapatisIA",   
+    "에니아크래프트투리토 「엑사파티시아」",
+    "에니아크래프트투리토-「엑사파티시아」",
+    "에니아크래프트투리토 「exapatisIA」",
+    "에니아크래프트투리토-「exapatisIA」",
+    "에니아크래프트투리토' 엑사파티시아",
+    "에니아크래프트투리토'-엑사파티시아",
+    "에니아크래프트투리토' exapatisIA",
+    "에니아크래프트투리토'-exapatisIA",
+    "에니아크래프트투리토' 「엑사파티시아」",
+    "에니아크래프트투리토'-「엑사파티시아」",
+    "에니아크래프트투리토' 「exapatisIA」",
+    "에니아크래프트투리토'-「exapatisIA」",
+    "에니아크래프트γ' 엑사파티시아",
+    "에니아크래프트γ'-엑사파티시아",
+    "에니아크래프트γ' exapatisIA",
+    "에니아크래프트γ'-exapatisIA",
+    "에니아크래프트γ' 「엑사파티시아」",
+    "에니아크래프트γ'-「엑사파티시아」",
+    "에니아크래프트γ' 「exapatisIA」",
+    "에니아크래프트γ'-「exapatisIA」"
+  ]
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1000,
-    "name": "Truckroid",
+    "name": "트럭로이드",
     "file_name": "61538782.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 0,
-    "name": "Turbo Booster",
+    "name": "원샷 부스터",
     "file_name": "60187739.jpg"
   },
   {
     "level_type": "level",
     "level": 10,
     "atk": 4400,
-    "name": "Ultimate Ancient Gear Golem",
+    "name": "앤틱 기어 얼티미트 골렘",
     "file_name": "12652643.jpg"
   },
   {
     "level_type": "level",
     "level": 1,
     "atk": 100,
-    "name": "Unicycular",
+    "name": "언사이클러",
     "file_name": "57308711.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1900,
-    "name": "Wind-Up Zenmaister",
+    "name": "발조기갑 태엽마이스터",
     "file_name": "68597372.jpg"
   },
   {
     "level_type": "level",
     "level": 3,
     "atk": 800,
-    "name": "Wroughtweiler",
+    "name": "프렌도그",
     "file_name": "6480253.jpg"
   },
   {
     "level_type": "level",
     "level": 4,
     "atk": 1200,
-    "name": "Yellow Gadget",
+    "name": "옐로 가제트",
     "file_name": "13839120.jpg"
   }
 ]
