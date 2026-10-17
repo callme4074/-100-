@@ -1,132 +1,355 @@
-const answerForm = document.getElementById("answerForm");
-const answerInput = document.getElementById("answerInput");
+
 const scoreText = document.getElementById("score");
 const timerText = document.getElementById("timer");
+const answerInput = document.getElementById("answerInput");
 const feedback = document.getElementById("feedback");
-const correctList = document.getElementById("correctList");
 const startButton = document.getElementById("startButton");
+const hintButton = document.getElementById("hintButton");
+const quizBoard = document.getElementById("quizBoard");
+const hintImage = document.getElementById("hintImage");
+const hintMessage = document.getElementById("hintMessage");
 
-let correctCards = [];
-let timeLeft = 600;
-let gameStarted = false;
+let cards = [];
+let solvedNames = new Set();
+let slotByName = new Map();
+
+let elapsedSeconds = 0;
 let timerId = null;
+let hintTimeoutId = null;
+let gameStarted = false;
 
-// 입력한 카드 이름을 비교하기 쉽게 정리
-function normalizeAnswer(answer) {
-  return answer
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, " ");
+function normalizeAnswer(value) {
+  return value.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
-// 남은 시간을 화면에 표시
+function updateScore() {
+  scoreText.textContent = `정답: ${solvedNames.size} / ${cards.length}`;
+}
+
 function updateTimer() {
-  const minutes = Math.floor(timeLeft / 60);
-  const seconds = timeLeft % 60;
+  const minutes = Math.floor(elapsedSeconds / 60);
+  const seconds = elapsedSeconds % 60;
 
   timerText.textContent =
-    `${minutes}:${String(seconds).padStart(2, "0")}`;
+    `걸린 시간: ${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 }
 
-// 게임 시작
+function getSectionName(card) {
+  // 링크 몬스터와 일반 몬스터를 나누지 않고 숫자만으로 묶는다.
+  return `레벨 ${card.level}`;
+}
+
+function renderBoard() {
+  quizBoard.replaceChildren();
+  slotByName.clear();
+
+  const groups = new Map();
+
+  for (const card of cards) {
+    const sectionName = getSectionName(card);
+
+    if (!groups.has(sectionName)) {
+      groups.set(sectionName, []);
+    }
+
+    groups.get(sectionName).push(card);
+  }
+
+  const sortedGroups = [...groups.entries()].sort((a, b) => {
+    return Number(a[1][0].level) - Number(b[1][0].level);
+  });
+
+  for (const [sectionName, groupCards] of sortedGroups) {
+    // 공격력이 높은 카드부터 정렬
+    groupCards.sort((a, b) => {
+      const atkA = Number(a.atk);
+      const atkB = Number(b.atk);
+
+      if (Number.isFinite(atkA) && Number.isFinite(atkB)) {
+        return atkB - atkA;
+      }
+
+      if (Number.isFinite(atkA)) return -1;
+      if (Number.isFinite(atkB)) return 1;
+      return a.name.localeCompare(b.name);
+    });
+
+    const section = document.createElement("section");
+    section.className = "level-section";
+
+    const header = document.createElement("div");
+    header.className = "level-header";
+
+    const heading = document.createElement("h2");
+    heading.textContent = sectionName;
+
+    const progress = document.createElement("span");
+    progress.className = "level-progress";
+    progress.textContent = `0 / ${groupCards.length}`;
+
+    header.append(heading, progress);
+
+    const grid = document.createElement("div");
+    grid.className = "card-grid";
+
+    const sectionNames = groupCards.map(card =>
+      normalizeAnswer(card.name)
+    );
+
+    for (const card of groupCards) {
+      const normalizedName = normalizeAnswer(card.name);
+
+      const slot = document.createElement("div");
+      slot.className = "card-slot";
+
+      const placeholder = document.createElement("div");
+      placeholder.className = "card-placeholder";
+      placeholder.textContent = "?";
+
+      const image = document.createElement("img");
+      image.className = "card-image";
+      image.alt = card.name;
+      image.hidden = true;
+      image.src = `./images/${card.file_name}`;
+
+      // 이미지가 없거나 경로가 잘못된 경우에도 오류를 알 수 있게 한다.
+      image.addEventListener("error", () => {
+        image.alt = `${card.name} 이미지 불러오기 실패`;
+      });
+
+      const name = document.createElement("div");
+      name.className = "card-name";
+      name.textContent = "미입력";
+
+      // 이미지와 ?는 같은 카드 칸 안에 있다.
+      slot.append(placeholder, image, name);
+      grid.appendChild(slot);
+
+      slotByName.set(normalizedName, {
+        slot,
+        placeholder,
+        image,
+        name,
+        progress,
+        sectionNames
+      });
+    }
+
+    section.append(header, grid);
+    quizBoard.appendChild(section);
+  }
+}
+
+function revealCard(card) {
+  const normalizedName = normalizeAnswer(card.name);
+
+  if (solvedNames.has(normalizedName)) return false;
+
+  const elements = slotByName.get(normalizedName);
+  if (!elements) return false;
+
+  // 같은 칸에서 ?를 숨기고 카드 이미지를 표시한다.
+  elements.placeholder.hidden = true;
+  elements.image.hidden = false;
+  elements.name.textContent = card.name;
+  elements.slot.classList.add("solved");
+
+  solvedNames.add(normalizedName);
+
+  const sectionSolved = elements.sectionNames.filter(name =>
+    solvedNames.has(name)
+  ).length;
+
+  elements.progress.textContent =
+    `${sectionSolved} / ${elements.sectionNames.length}`;
+
+  updateScore();
+
+  if (solvedNames.size === cards.length) {
+    endGame("모든 카드를 맞혔어!");
+  }
+
+  return true;
+}
+
+function submitAnswer() {
+  if (!gameStarted) return;
+
+  const answer = normalizeAnswer(answerInput.value);
+  if (!answer) return;
+
+  const card = cards.find(item =>
+    normalizeAnswer(item.name) === answer
+  );
+
+  if (!card) return;
+
+  const accepted = revealCard(card);
+
+  if (accepted) {
+    feedback.textContent = `정답! ${card.name}`;
+    answerInput.value = "";
+  } else {
+    // 이미 맞힌 카드는 다시 처리하지 않는다.
+    answerInput.value = "";
+  }
+}
+
+function clearHint() {
+  if (hintTimeoutId !== null) {
+    clearTimeout(hintTimeoutId);
+    hintTimeoutId = null;
+  }
+
+  hintImage.hidden = true;
+  hintImage.removeAttribute("src");
+}
+
+function showHint() {
+  if (!gameStarted) return;
+
+  const unsolvedCards = cards.filter(card =>
+    !solvedNames.has(normalizeAnswer(card.name))
+  );
+
+  if (unsolvedCards.length === 0) {
+    hintMessage.textContent = "아직 남은 카드가 없어!";
+    clearHint();
+    return;
+  }
+
+  // 아직 맞히지 못한 카드 중 하나를 무작위로 선택한다.
+  const card = unsolvedCards[
+    Math.floor(Math.random() * unsolvedCards.length)
+  ];
+
+  clearHint();
+
+  hintMessage.textContent = "힌트 이미지가 1초 동안 표시돼.";
+
+  hintImage.onload = () => {
+    hintImage.hidden = false;
+
+    hintTimeoutId = setTimeout(() => {
+      hintImage.hidden = true;
+      hintImage.removeAttribute("src");
+      hintTimeoutId = null;
+      hintMessage.textContent = "힌트가 끝났어. 다시 필요하면 힌트를 눌러 줘.";
+    }, 1000);
+  };
+
+  hintImage.onerror = () => {
+    hintImage.hidden = true;
+    hintMessage.textContent = "힌트 이미지를 불러오지 못했어. 이미지 경로를 확인해 줘.";
+  };
+
+  hintImage.src = `./images/${card.file_name}`;
+}
+
+function endGame(message) {
+  gameStarted = false;
+
+  if (timerId !== null) {
+    clearInterval(timerId);
+    timerId = null;
+  }
+
+  answerInput.disabled = true;
+  hintButton.disabled = true;
+  startButton.disabled = false;
+  startButton.textContent = "다시 시작";
+
+  clearHint();
+  feedback.textContent =
+    `${message} 최종 정답: ${solvedNames.size} / ${cards.length}. ${timerText.textContent}`;
+}
+
 function startGame() {
-  correctCards = [];
-  timeLeft = 600;
+  if (timerId !== null) {
+    clearInterval(timerId);
+    timerId = null;
+  }
+
+  clearHint();
+  solvedNames.clear();
+  elapsedSeconds = 0;
   gameStarted = true;
 
-  scoreText.textContent = "0";
-  feedback.textContent = "";
-  correctList.innerHTML = "";
-  answerInput.value = "";
+  renderBoard();
+  updateScore();
+  updateTimer();
 
   answerInput.disabled = false;
-  answerForm.querySelector("button").disabled = false;
-  startButton.disabled = true;
-
-  updateTimer();
+  answerInput.value = "";
   answerInput.focus();
 
-  timerId = setInterval(function () {
-    timeLeft--;
-    updateTimer();
+  hintButton.disabled = false;
+  startButton.disabled = true;
+  startButton.textContent = "진행 중";
 
-    if (timeLeft <= 0) {
-      endGame();
-    }
+  feedback.textContent = "카드 이름을 입력해 봐!";
+  hintMessage.textContent = "힌트 버튼을 누르면 아직 맞히지 못한 카드가 잠깐 보여.";
+
+  timerId = setInterval(() => {
+    elapsedSeconds++;
+    updateTimer();
   }, 1000);
 }
 
-// 게임 종료
-function endGame() {
-  gameStarted = false;
-  clearInterval(timerId);
+async function loadCards() {
+  try {
+    const response = await fetch("./cards.json");
 
-  answerInput.disabled = true;
-  answerForm.querySelector("button").disabled = true;
-  startButton.disabled = false;
+    if (!response.ok) {
+      throw new Error(`cards.json 불러오기 실패: ${response.status}`);
+    }
 
-  feedback.textContent =
-    `게임 종료! 총 ${correctCards.length}장의 카드를 맞혔습니다.`;
+    const data = await response.json();
 
-  startButton.textContent = "다시 시작";
+    if (!Array.isArray(data)) {
+      throw new Error("cards.json의 최상위 데이터는 배열이어야 해.");
+    }
+
+    cards = data.filter(card =>
+      typeof card.name === "string" &&
+      typeof card.file_name === "string" &&
+      card.file_name.length > 0 &&
+      Number.isFinite(Number(card.level))
+    );
+
+    if (cards.length === 0) {
+      throw new Error("사용 가능한 카드 데이터가 없어.");
+    }
+
+    renderBoard();
+    updateScore();
+
+    startButton.disabled = false;
+    feedback.textContent =
+      `${cards.length}장의 카드 데이터를 불러왔어. 퀴즈를 시작해 봐!`;
+  } catch (error) {
+    console.error(error);
+
+    feedback.textContent =
+      "카드 데이터를 불러오지 못했어. cards.json의 위치와 JSON 형식을 확인해 줘.";
+
+    startButton.disabled = true;
+  }
 }
 
-// 카드 이름 입력
-function checkAnswer() {
-  if (!gameStarted) {
-    return;
+answerInput.addEventListener("input", submitAnswer);
+
+answerInput.addEventListener("keydown", event => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    submitAnswer();
   }
-
-  const userAnswer = normalizeAnswer(answerInput.value);
-
-  if (userAnswer === "") {
-    return;
-  }
-
-  // 입력한 이름과 일치하는 카드 찾기
-  const foundCard = cards.find(function (card) {
-    const allNames = [card.name, ...card.aliases];
-
-    return allNames.some(function (name) {
-      return normalizeAnswer(name) === userAnswer;
-    });
-  });
-
-  // 목록에 없는 카드
-  if (!foundCard) {
-    return;
-  }
-
-  // 이미 맞힌 카드인지 확인
-  const alreadyCorrect = correctCards.some(function (card) {
-    return card.name === foundCard.name;
-  });
-
-  if (alreadyCorrect) {
-    return;
-  }
-
-  // 정답 처리
-  correctCards.push(foundCard);
-
-  scoreText.textContent = correctCards.length;
-  feedback.textContent = "정답!";
-
-  // 정답 목록에 카드 추가
-  const listItem = document.createElement("li");
-  listItem.textContent = foundCard.name;
-  correctList.appendChild(listItem);
-
-  // 정답을 입력하면 입력창 비우기
-  answerInput.value = "";
-}
-answerInput.addEventListener("input", checkAnswer);
-// 게임 시작 버튼
-startButton.addEventListener("click", function () {
-  if (gameStarted) {
-    return;
-  }
-
-  startButton.textContent = "게임 진행 중";
-  startGame();
 });
+
+startButton.addEventListener("click", startGame);
+hintButton.addEventListener("click", showHint);
+
+startButton.disabled = true;
+hintButton.disabled = true;
+
+loadCards();

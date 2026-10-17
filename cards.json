@@ -1,0 +1,2459 @@
+[
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Acrobat Monkey",
+    "file_name": "47372349.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 300,
+    "name": "Ambulanceroid",
+    "file_name": "36378213.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 800,
+    "name": "Anchorbolt Hedgehog",
+    "file_name": "54656950.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 100,
+    "name": "Ancient Gear",
+    "file_name": "31557782.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 2,
+    "atk": 1500,
+    "name": "Ancient Gear Ballista",
+    "file_name": "10547580.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2000,
+    "name": "Ancient Gear Beast",
+    "file_name": "10509340.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Ancient Gear Box",
+    "file_name": "60953949.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 500,
+    "name": "Ancient Gear Cannon",
+    "file_name": "80045583.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Ancient Gear Commander",
+    "file_name": "27483935.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 3000,
+    "name": "Ancient Gear Dark Golem",
+    "file_name": "64603182.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 500,
+    "name": "Ancient Gear Dragon",
+    "file_name": "75892194.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1500,
+    "name": "Ancient Gear Engineer",
+    "file_name": "1953925.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Ancient Gear Frame",
+    "file_name": "1278431.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Ancient Gear Gadget",
+    "file_name": "18486927.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2300,
+    "name": "Ancient Gear Gadjiltron Chimera",
+    "file_name": "86321248.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 3000,
+    "name": "Ancient Gear Gadjiltron Dragon",
+    "file_name": "50933533.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 3000,
+    "name": "Ancient Gear Golem",
+    "file_name": "83104731.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 3000,
+    "name": "Ancient Gear Golem - Ultimate Pound",
+    "file_name": "95735217.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1000,
+    "name": "Ancient Gear Howitzer",
+    "file_name": "87182127.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Ancient Gear Hunting Hound",
+    "file_name": "42878636.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2700,
+    "name": "Ancient Gear Hydra",
+    "file_name": "81269231.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Ancient Gear Knight",
+    "file_name": "39303359.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 3300,
+    "name": "Ancient Gear Megaton Golem",
+    "file_name": "37663536.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 3000,
+    "name": "Ancient Gear Reactor Dragon",
+    "file_name": "44874522.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1300,
+    "name": "Ancient Gear Soldier",
+    "file_name": "56094445.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 500,
+    "name": "Ancient Gear Statue",
+    "file_name": "32762201.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1300,
+    "name": "Ancient Gear Tanker",
+    "file_name": "91098230.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1700,
+    "name": "Ancient Gear Wyvern",
+    "file_name": "17663375.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 2900,
+    "name": "Apoqliphort Skybase",
+    "file_name": "40061558.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3000,
+    "name": "Apoqliphort Towers",
+    "file_name": "27279764.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2700,
+    "name": "Armoroid",
+    "file_name": "73333463.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Aye-Iron",
+    "file_name": "42969214.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 2500,
+    "name": "B.E.S. Blaster Cannon Core",
+    "file_name": "84257883.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2500,
+    "name": "B.E.S. Covered Core",
+    "file_name": "15317640.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 12,
+    "atk": 4000,
+    "name": "Barbaroid, the Ultimate Battle Machine",
+    "file_name": "54702678.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 200,
+    "name": "Bicular",
+    "file_name": "83392426.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2500,
+    "name": "Boot-Up Admiral - Destroyer Dynamo",
+    "file_name": "36322312.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 0,
+    "name": "Boot-Up Corporal - Command Dynamo",
+    "file_name": "938717.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 0,
+    "name": "Boot-Up Soldier - Dread Dynamo",
+    "file_name": "13316346.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1500,
+    "name": "Bri Synchron",
+    "file_name": "52840598.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Buster Blaster",
+    "file_name": "63676256.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1900,
+    "name": "Cannon Soldier MK-2",
+    "file_name": "14702066.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 400,
+    "name": "Card Trooper",
+    "file_name": "85087012.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 800,
+    "name": "Cardcar D",
+    "file_name": "45812361.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2000,
+    "name": "Centur-Ion Emeth VI",
+    "file_name": "78888899.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2000,
+    "name": "Checkker",
+    "file_name": "77435268.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1500,
+    "name": "Chronomaly Mayan Machine",
+    "file_name": "25163248.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1350,
+    "name": "Cipher Soldier",
+    "file_name": "79853073.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 1,
+    "atk": 500,
+    "name": "Clockwork Knight",
+    "file_name": "41739381.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2500,
+    "name": "Combat Wheel",
+    "file_name": "12501230.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1000,
+    "name": "Commander Covington",
+    "file_name": "22666164.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Construction Train Signal Red",
+    "file_name": "34475451.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Convex Knight",
+    "file_name": "43471513.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Cosmic Compass",
+    "file_name": "27450400.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1900,
+    "name": "Cyber Ogre",
+    "file_name": "64268668.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2600,
+    "name": "Cyber Ogre 2",
+    "file_name": "37057012.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1800,
+    "name": "Cyber Saurus",
+    "file_name": "89112729.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 800,
+    "name": "Cycroid",
+    "file_name": "45945685.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1000,
+    "name": "Dark Catapulter",
+    "file_name": "33875961.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Deftero Enneacraft - \"alazoneIA\"",
+    "file_name": "92171126.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 500,
+    "name": "Deskbot 001",
+    "file_name": "94693857.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 500,
+    "name": "Deskbot 002",
+    "file_name": "59368956.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 500,
+    "name": "Deskbot 003",
+    "file_name": "75944053.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Deskbot 004",
+    "file_name": "22227683.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 500,
+    "name": "Deskbot 005",
+    "file_name": "10117149.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 500,
+    "name": "Deskbot 006",
+    "file_name": "55106249.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 500,
+    "name": "Deskbot 007",
+    "file_name": "97588916.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 500,
+    "name": "Deskbot 008",
+    "file_name": "24573625.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 500,
+    "name": "Deskbot 009",
+    "file_name": "25494711.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 500,
+    "name": "Deskbot Jet",
+    "file_name": "89544521.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1650,
+    "name": "Dice Armadillo",
+    "file_name": "69893315.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 3200,
+    "name": "Digvorzhak, King of Heavy Industry",
+    "file_name": "29515122.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Dododo Bot",
+    "file_name": "19700943.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 2,
+    "atk": 1500,
+    "name": "Double Headed Anger Knuckle",
+    "file_name": "146746.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 1500,
+    "name": "Dovelgus, Generaider Boss of Iron",
+    "file_name": "76382116.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Dragong",
+    "file_name": "83980492.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2500,
+    "name": "Drill Driver Vespenato",
+    "file_name": "39317553.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 800,
+    "name": "Drill Synchron",
+    "file_name": "56286179.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Drillroid",
+    "file_name": "71218746.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 0,
+    "name": "Dyna Base",
+    "file_name": "39396763.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": -1,
+    "name": "Dyna Tank",
+    "file_name": "75780818.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 200,
+    "name": "Einroid",
+    "file_name": "88039509.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Ekto Enneacraft - \"tromarIA\"",
+    "file_name": "29570824.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 2800,
+    "name": "El Shaddoll Meshahrail",
+    "file_name": "32467459.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 2600,
+    "name": "El Shaddoll Shekhinaga",
+    "file_name": "74822425.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Enato Enneacraft - \"oknirIA\"",
+    "file_name": "55965529.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Express Train Trolley Olley",
+    "file_name": "7080743.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 400,
+    "name": "Expressroid",
+    "file_name": "984114.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Flying Pegasus Railroad Stampede",
+    "file_name": "88875132.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1000,
+    "name": "Frontline Observer",
+    "file_name": "12451640.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 200,
+    "name": "Gadget Driver",
+    "file_name": "54497620.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 300,
+    "name": "Gadget Gamer",
+    "file_name": "64487132.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1300,
+    "name": "Gadget Hauler",
+    "file_name": "28002611.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1300,
+    "name": "Gadget Trio",
+    "file_name": "92110878.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 3,
+    "atk": 2600,
+    "name": "Gaia Saber, the Lightning Shadow",
+    "file_name": "67598234.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2600,
+    "name": "Gaming Gamer GG",
+    "file_name": "15778492.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2300,
+    "name": "Gear Gigant X",
+    "file_name": "28912357.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 800,
+    "name": "Gear Golem the Moving Fortress",
+    "file_name": "30190809.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1400,
+    "name": "Geargiaccelerator",
+    "file_name": "47030842.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 2500,
+    "name": "Geargiagear Gigant XG",
+    "file_name": "19891310.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Geargianchor",
+    "file_name": "92693205.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 500,
+    "name": "Geargiano",
+    "file_name": "71786742.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Geargiano Mk-II",
+    "file_name": "1045143.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Geargiano Mk-III",
+    "file_name": "45286019.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1100,
+    "name": "Geargiarmor",
+    "file_name": "923596.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1500,
+    "name": "Geargiarsenal",
+    "file_name": "73428497.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1900,
+    "name": "Geargiattacker",
+    "file_name": "72370114.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Geargiauger",
+    "file_name": "47687766.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2300,
+    "name": "Genex Army",
+    "file_name": "93211836.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Genex Searcher",
+    "file_name": "67483216.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1400,
+    "name": "Genex Turbine",
+    "file_name": "52222372.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1800,
+    "name": "Geo Genex",
+    "file_name": "33972299.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1750,
+    "name": "Giant Mech-Soldier",
+    "file_name": "72299832.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Gimmick Puppet Egg Head",
+    "file_name": "20032555.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Gimmick Puppet Gear Changer",
+    "file_name": "56427559.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1450,
+    "name": "Gizmek Taniguku, the Immobile Intellect",
+    "file_name": "23384666.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2250,
+    "name": "Gizmek Uka, the Festive Fox of Fecundity",
+    "file_name": "90361289.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1800,
+    "name": "Gold Pride - Eliminator",
+    "file_name": "60203670.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 0,
+    "name": "Goldilocks the Battle Landscaper",
+    "file_name": "24521754.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 900,
+    "name": "Golgoil",
+    "file_name": "7526150.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 3000,
+    "name": "Googly-Eyes Drum Dragon",
+    "file_name": "77799846.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1400,
+    "name": "Green Gadget",
+    "file_name": "41172955.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1500,
+    "name": "Ground Attacker Bugroth",
+    "file_name": "58314394.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 500,
+    "name": "Heavy Armored Knight Babeldecker",
+    "file_name": "45116390.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2200,
+    "name": "Heavy Armored Train Ironwolf",
+    "file_name": "49121795.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 2800,
+    "name": "Heavy Freight Train Derricrane",
+    "file_name": "13647631.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1100,
+    "name": "Holograh",
+    "file_name": "10859908.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2300,
+    "name": "Ignition Beast Volcannon",
+    "file_name": "10365322.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Infinitrack Anchor Drill",
+    "file_name": "62034800.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1900,
+    "name": "Infinitrack Brutal Dozer",
+    "file_name": "76830505.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2100,
+    "name": "Infinitrack Crab Crane",
+    "file_name": "98439949.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1500,
+    "name": "Infinitrack Drag Shovel",
+    "file_name": "34923554.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 3100,
+    "name": "Infinitrack Earth Slicer",
+    "file_name": "97584719.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 3,
+    "atk": 4000,
+    "name": "Infinitrack Fortress Megaclops",
+    "file_name": "69073023.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 1,
+    "atk": 1000,
+    "name": "Infinitrack Goliath",
+    "file_name": "23689428.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 0,
+    "name": "Infinitrack Harvester",
+    "file_name": "35645105.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2100,
+    "name": "Infinitrack Mountain Smasher",
+    "file_name": "60195675.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2500,
+    "name": "Infinitrack River Stormer",
+    "file_name": "24701066.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2100,
+    "name": "Infinitrack Road Roller",
+    "file_name": "5205146.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 500,
+    "name": "Infinitrack Trencher",
+    "file_name": "61912252.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2200,
+    "name": "Infinitrack Tunneller",
+    "file_name": "97316367.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Inpachi",
+    "file_name": "97923414.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1100,
+    "name": "Iron Chain Coil",
+    "file_name": "53152590.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 4,
+    "atk": 2400,
+    "name": "Iron Knight of Revolution",
+    "file_name": "662857.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Jumbo Drill",
+    "file_name": "42851643.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2100,
+    "name": "Junk Dragonlet",
+    "file_name": "3121655.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2000,
+    "name": "Junk Giant",
+    "file_name": "34492631.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 300,
+    "name": "Junkuriboh",
+    "file_name": "38491199.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2200,
+    "name": "K9-04 Noroi",
+    "file_name": "47960073.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 400,
+    "name": "Karakuri Barrel mdl 96 \"Shinkuro\"",
+    "file_name": "92300891.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2000,
+    "name": "Karakuri Bonze mdl 9763 \"Kunamzan\"",
+    "file_name": "49296203.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Karakuri Bushi mdl 6318 \"Muzanichiha\"",
+    "file_name": "39118197.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 200,
+    "name": "Karakuri Gama mdl 4624 \"Shirokunishi\"",
+    "file_name": "75690317.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 0,
+    "name": "Karakuri Komachi mdl 224 \"Ninishi\"",
+    "file_name": "24621460.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 500,
+    "name": "Karakuri Merchant mdl 177 \"Inashichi\"",
+    "file_name": "30230789.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2100,
+    "name": "Karakuri Muso mdl 818 \"Haipa\"",
+    "file_name": "24150026.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1200,
+    "name": "Karakuri Ninja mdl 339 \"Sazank\"",
+    "file_name": "93724592.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2200,
+    "name": "Karakuri Ninja mdl 7749 \"Nanashick\"",
+    "file_name": "50615578.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1700,
+    "name": "Karakuri Ninja mdl 919 \"Kuick\"",
+    "file_name": "6276588.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2600,
+    "name": "Karakuri Shogun mdl 00 \"Burei\"",
+    "file_name": "23874409.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1400,
+    "name": "Karakuri Soldier mdl 236 \"Nisamu\"",
+    "file_name": "3846170.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 400,
+    "name": "Karakuri Spider",
+    "file_name": "45688586.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2800,
+    "name": "Karakuri Steel Shogun mdl 00X \"Bureido\"",
+    "file_name": "66976526.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 500,
+    "name": "Karakuri Strategist mdl 248 \"Nishipachi\"",
+    "file_name": "66625883.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 3000,
+    "name": "Karakuri Super Shogun mdl 00N \"Bureibu\"",
+    "file_name": "25904894.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 600,
+    "name": "Karakuri Watchdog mdl 313 \"Saizan\"",
+    "file_name": "70271583.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2100,
+    "name": "Koa'ki Meiru Powerhand",
+    "file_name": "19642889.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 300,
+    "name": "Lefty Driver",
+    "file_name": "44935634.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 0,
+    "name": "Legendary Dueling Field",
+    "file_name": "55343172.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2400,
+    "name": "Lionhearted Locomotive",
+    "file_name": "61692648.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1500,
+    "name": "Machina Air Raider",
+    "file_name": "23469398.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 0,
+    "name": "Machina Cannon",
+    "file_name": "39284521.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3000,
+    "name": "Machina Citadel",
+    "file_name": "87074380.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Machina Defender",
+    "file_name": "96384007.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 4600,
+    "name": "Machina Force",
+    "file_name": "58054262.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2500,
+    "name": "Machina Fortress",
+    "file_name": "5556499.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Machina Gearframe",
+    "file_name": "42940404.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1700,
+    "name": "Machina Irradiator",
+    "file_name": "50863093.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2600,
+    "name": "Machina Megaform",
+    "file_name": "51617185.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 2800,
+    "name": "Machina Metalcruncher",
+    "file_name": "69838761.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 500,
+    "name": "Machina Peacekeeper",
+    "file_name": "78349103.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Machina Sniper",
+    "file_name": "23782705.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Machina Soldier",
+    "file_name": "60999392.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1600,
+    "name": "Machine Attacker",
+    "file_name": "38116136.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2200,
+    "name": "Machine King",
+    "file_name": "46700124.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1600,
+    "name": "Machine King Prototype",
+    "file_name": "89222931.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Machine Lord Ur",
+    "file_name": "96938777.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 500,
+    "name": "Magical Hound",
+    "file_name": "51916853.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2000,
+    "name": "Magikey Mechmortar - Garesglasser",
+    "file_name": "45877457.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 800,
+    "name": "Mecha Bunny",
+    "file_name": "10110717.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2800,
+    "name": "Mechanical Hound",
+    "file_name": "22512237.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Meklord Army of Granel",
+    "file_name": "2137678.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Meklord Emperor Granel",
+    "file_name": "4545683.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 0,
+    "name": "Meteor Rush - Monochroid",
+    "file_name": "99748883.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Mighty Guard",
+    "file_name": "62327910.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 300,
+    "name": "Mimimic",
+    "file_name": "45651298.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1500,
+    "name": "Minefieldriller",
+    "file_name": "24419823.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1500,
+    "name": "Monster Express",
+    "file_name": "637216.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 500,
+    "name": "Morphtronic Boarden",
+    "file_name": "48381268.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Morphtronic Boomboxen",
+    "file_name": "92720564.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Morphtronic Celfon",
+    "file_name": "93542102.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 600,
+    "name": "Morphtronic Clocken",
+    "file_name": "91607976.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Morphtronic Earfon",
+    "file_name": "37260946.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 300,
+    "name": "Morphtronic Remoten",
+    "file_name": "57108202.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1500,
+    "name": "Morphtronic Scannen",
+    "file_name": "1876841.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Morphtronic Smartfon",
+    "file_name": "15521027.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1400,
+    "name": "Morphtronic Staplen",
+    "file_name": "2250266.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Morphtronic Telefon",
+    "file_name": "38082437.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Nanobreaker",
+    "file_name": "70948327.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Needle Soldier",
+    "file_name": "17841097.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Nehshaddoll Genius",
+    "file_name": "66675911.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3000,
+    "name": "Night Express Knight",
+    "file_name": "51126152.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 2500,
+    "name": "Night Train Blue Traveler",
+    "file_name": "81101309.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3200,
+    "name": "Number 81: Superdreadnought Rail Cannon Super Dora",
+    "file_name": "49032236.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 400,
+    "name": "Oilman",
+    "file_name": "31768112.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1400,
+    "name": "Oni Tank T-34",
+    "file_name": "66927994.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Overdrive",
+    "file_name": "2311603.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1600,
+    "name": "Pair Cycroid",
+    "file_name": "16114248.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Patroid",
+    "file_name": "71930383.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1100,
+    "name": "Patrol Robo",
+    "file_name": "76775123.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2700,
+    "name": "Perfect Machine King",
+    "file_name": "18891691.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1000,
+    "name": "Planet Pathfinder",
+    "file_name": "97526666.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 2500,
+    "name": "Power Tool Braver Dragon",
+    "file_name": "63265554.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2300,
+    "name": "Power Tool Dragon",
+    "file_name": "2403771.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2700,
+    "name": "Powered Crawler",
+    "file_name": "87742943.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 800,
+    "name": "Pritima the Infinity Cubic Vessel",
+    "file_name": "100460001.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Proto Enneacraft - \"orgIA\"",
+    "file_name": "56187077.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1400,
+    "name": "Pursuit Chaser",
+    "file_name": "27870033.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2400,
+    "name": "Qliphort Carrier",
+    "file_name": "91907707.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2800,
+    "name": "Qliphort Cephalopod",
+    "file_name": "87588741.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2800,
+    "name": "Qliphort Disk",
+    "file_name": "64496451.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 2,
+    "atk": 1800,
+    "name": "Qliphort Genius",
+    "file_name": "22423493.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2400,
+    "name": "Qliphort Helix",
+    "file_name": "37991342.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2400,
+    "name": "Qliphort Monolith",
+    "file_name": "51194046.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1000,
+    "name": "Qliphort Scout",
+    "file_name": "65518099.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2800,
+    "name": "Qliphort Shell",
+    "file_name": "90885155.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2800,
+    "name": "Qliphort Stealth",
+    "file_name": "13073850.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Quick-Span Knight",
+    "file_name": "11287364.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 800,
+    "name": "Quillbolt Hedgehog",
+    "file_name": "23571046.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 800,
+    "name": "R-Genex Crusher",
+    "file_name": "65149697.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "R-Genex Ultimum",
+    "file_name": "46572756.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 700,
+    "name": "R.B. Ga10 Cutter",
+    "file_name": "33438265.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 500,
+    "name": "R.B. Ga10 Driller",
+    "file_name": "6043161.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1500,
+    "name": "R.B. Ga10 Pile Bunker",
+    "file_name": "44573911.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1300,
+    "name": "Red Gadget",
+    "file_name": "86445415.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 900,
+    "name": "Revolution Synchron",
+    "file_name": "97682931.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Righty Driver",
+    "file_name": "60071928.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 450,
+    "name": "Robolady",
+    "file_name": "92421852.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 900,
+    "name": "Roboyarou",
+    "file_name": "38916461.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 5000,
+    "name": "Rocket Arrow Express",
+    "file_name": "79850798.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1900,
+    "name": "Royal Guard",
+    "file_name": "39239728.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Ruffian Railcar",
+    "file_name": "24919805.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 2100,
+    "name": "Rustin Mammoth",
+    "file_name": "3434362.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 500,
+    "name": "Sage of Wisdom - Himmel",
+    "file_name": "22790910.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 2600,
+    "name": "Samurai Destroyer",
+    "file_name": "40509732.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2100,
+    "name": "Scrap Breaker",
+    "file_name": "51555725.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1600,
+    "name": "Scrap Hunter",
+    "file_name": "55624610.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Scrap Mind Reader",
+    "file_name": "67038874.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 900,
+    "name": "Scrap Recycler",
+    "file_name": "4334811.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 700,
+    "name": "Scrap Synchron",
+    "file_name": "16449363.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 900,
+    "name": "Shovel Crusher",
+    "file_name": "71950093.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1600,
+    "name": "Shreddder",
+    "file_name": "3603242.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 1,
+    "atk": 1500,
+    "name": "Sky Striker Ace - Kaina",
+    "file_name": "12421694.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 2500,
+    "name": "Snow Plow Hustle Rustle",
+    "file_name": "24731453.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1000,
+    "name": "SPYRAL GEAR - Last Resort",
+    "file_name": "37433748.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 500,
+    "name": "SPYRAL Quik-Fix",
+    "file_name": "78080961.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 2200,
+    "name": "Steam Gyroid",
+    "file_name": "5368615.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1800,
+    "name": "Steamroid",
+    "file_name": "44729197.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1400,
+    "name": "Steel Ogre Grotto #1",
+    "file_name": "29172562.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1900,
+    "name": "Steel Ogre Grotto #2",
+    "file_name": "90908427.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 250,
+    "name": "Steel Scorpion",
+    "file_name": "13599884.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1400,
+    "name": "Super Defense Robot Elephan",
+    "file_name": "45496268.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Super Defense Robot Lio",
+    "file_name": "8091563.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 800,
+    "name": "Super Defense Robot Monki",
+    "file_name": "71880877.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3000,
+    "name": "Super Express Bullet Train",
+    "file_name": "52481437.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1200,
+    "name": "Super Robolady",
+    "file_name": "75923050.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 1200,
+    "name": "Super Roboyarou",
+    "file_name": "1412158.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 0,
+    "name": "Super Vehicroid - Mobile Base",
+    "file_name": "17745969.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 3600,
+    "name": "Super Vehicroid - Stealth Union",
+    "file_name": "3897065.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 3000,
+    "name": "Super Vehicroid Jumbo Drill",
+    "file_name": "36256625.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3800,
+    "name": "Superdreadnought Rail Cannon Flying Launcher",
+    "file_name": "38354018.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3000,
+    "name": "Superdreadnought Rail Cannon Gustav Max",
+    "file_name": "56910167.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 5000,
+    "name": "Superdreadnought Rail Cannon Gustav Rocket",
+    "file_name": "92359409.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 11,
+    "atk": 4000,
+    "name": "Superdreadnought Rail Cannon Juggernaut Liebe",
+    "file_name": "26096328.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 9,
+    "atk": 1900,
+    "name": "Superheavy Samurai Beast Kyubi",
+    "file_name": "85528209.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1000,
+    "name": "Superheavy Samurai Big Benkei",
+    "file_name": "3117804.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 800,
+    "name": "Superheavy Samurai Big Waraji",
+    "file_name": "36523152.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 500,
+    "name": "Superheavy Samurai Blowtorch",
+    "file_name": "7864030.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 0,
+    "name": "Superheavy Samurai Blue Brawler",
+    "file_name": "41628550.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 12,
+    "atk": 2100,
+    "name": "Superheavy Samurai Brave Masurawo",
+    "file_name": "64193046.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 300,
+    "name": "Superheavy Samurai Drum",
+    "file_name": "87535691.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 900,
+    "name": "Superheavy Samurai Fist",
+    "file_name": "71386411.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 500,
+    "name": "Superheavy Samurai Flutist",
+    "file_name": "27978707.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 300,
+    "name": "Superheavy Samurai General Coral",
+    "file_name": "78274190.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1800,
+    "name": "Superheavy Samurai General Jade",
+    "file_name": "42880485.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 100,
+    "name": "Superheavy Samurai Gigagloves",
+    "file_name": "62017867.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Superheavy Samurai Helper",
+    "file_name": "44891812.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1000,
+    "name": "Superheavy Samurai Kabuto",
+    "file_name": "41307269.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 900,
+    "name": "Superheavy Samurai Magnet",
+    "file_name": "89091772.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 1000,
+    "name": "Superheavy Samurai Monk Big Benkei",
+    "file_name": "19510093.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 800,
+    "name": "Superheavy Samurai Motorbike",
+    "file_name": "83334932.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2000,
+    "name": "Superheavy Samurai Ninja Sarutobi",
+    "file_name": "76471944.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 6,
+    "atk": 500,
+    "name": "Superheavy Samurai Ogre Shutendoji",
+    "file_name": "36953371.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 100,
+    "name": "Superheavy Samurai Prepped Defense",
+    "file_name": "15495787.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 800,
+    "name": "Superheavy Samurai Scales",
+    "file_name": "78391364.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 1,
+    "atk": 0,
+    "name": "Superheavy Samurai Scarecrow",
+    "file_name": "33918636.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 500,
+    "name": "Superheavy Samurai Security",
+    "file_name": "5182107.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Superheavy Samurai Soulbang Cannon",
+    "file_name": "3064425.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Superheavy Samurai Soulbeads",
+    "file_name": "27756115.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Superheavy Samurai Soulbreaker Armor",
+    "file_name": "77679716.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Superheavy Samurai Soulbuster Gauntlet",
+    "file_name": "35800511.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 500,
+    "name": "Superheavy Samurai Soulclaw",
+    "file_name": "40028305.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 0,
+    "name": "Superheavy Samurai Soulgaia Booster",
+    "file_name": "56727340.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Superheavy Samurai Soulhorns",
+    "file_name": "14624296.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Superheavy Samurai Soulpeacemaker",
+    "file_name": "95500396.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Superheavy Samurai Soulpiercer",
+    "file_name": "90361010.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1200,
+    "name": "Superheavy Samurai Soulshield Wall",
+    "file_name": "31181711.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 7,
+    "atk": 1200,
+    "name": "Superheavy Samurai Stealth Ninja",
+    "file_name": "50065971.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 200,
+    "name": "Superheavy Samurai Stealthy",
+    "file_name": "10333641.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 12,
+    "atk": 2000,
+    "name": "Superheavy Samurai Steam Train King",
+    "file_name": "17775525.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 300,
+    "name": "Superheavy Samurai Swordmaster Musashi",
+    "file_name": "75988594.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Superheavy Samurai Swordsman",
+    "file_name": "77013169.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 1000,
+    "name": "Superheavy Samurai Thief",
+    "file_name": "14756848.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 5,
+    "atk": 1200,
+    "name": "Superheavy Samurai Transporter",
+    "file_name": "41141943.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 300,
+    "name": "Superheavy Samurai Trumpeter",
+    "file_name": "64373401.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Superheavy Samurai Wagon",
+    "file_name": "34496660.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 2400,
+    "name": "Superheavy Samurai Warlord Susanowo",
+    "file_name": "494922.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Swift Scarecrow",
+    "file_name": "18964575.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 1000,
+    "name": "Synchro Magnet",
+    "file_name": "50702124.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Synchro Soldier",
+    "file_name": "79796561.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 0,
+    "name": "Synchron Carrier",
+    "file_name": "62125438.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 2,
+    "atk": 0,
+    "name": "Synchron Explorer",
+    "file_name": "36643046.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 3300,
+    "name": "T.G. Blade Blaster",
+    "file_name": "51447164.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 12,
+    "atk": 4000,
+    "name": "T.G. Glaive Blaster",
+    "file_name": "95973569.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 12,
+    "atk": 4000,
+    "name": "T.G. Halberd Cannon",
+    "file_name": "97836203.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 12,
+    "atk": 4500,
+    "name": "T.G. Halberd Cannon/Assault Mode",
+    "file_name": "47027714.jpg"
+  },
+  {
+    "level_type": "link",
+    "level": 3,
+    "atk": 2200,
+    "name": "T.G. Trident Launcher",
+    "file_name": "50750868.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2800,
+    "name": "Therion \"King\" Regulus",
+    "file_name": "10604644.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 2800,
+    "name": "Tilting Entrainment",
+    "file_name": "77855162.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 2200,
+    "name": "Tin Archduke",
+    "file_name": "66506689.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 8,
+    "atk": 3000,
+    "name": "Toon Ancient Gear Golem",
+    "file_name": "7171149.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 200,
+    "name": "Toy Knight",
+    "file_name": "1826676.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 300,
+    "name": "Tricular",
+    "file_name": "20797524.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Trito Enneacraft - \"exapatisIA\"",
+    "file_name": "44716748.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1000,
+    "name": "Truckroid",
+    "file_name": "61538782.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 0,
+    "name": "Turbo Booster",
+    "file_name": "60187739.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 10,
+    "atk": 4400,
+    "name": "Ultimate Ancient Gear Golem",
+    "file_name": "12652643.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 1,
+    "atk": 100,
+    "name": "Unicycular",
+    "file_name": "57308711.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1900,
+    "name": "Wind-Up Zenmaister",
+    "file_name": "68597372.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 3,
+    "atk": 800,
+    "name": "Wroughtweiler",
+    "file_name": "6480253.jpg"
+  },
+  {
+    "level_type": "level",
+    "level": 4,
+    "atk": 1200,
+    "name": "Yellow Gadget",
+    "file_name": "13839120.jpg"
+  }
+]

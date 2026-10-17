@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나는 땅기계 카드를 100가지 이상 말할 수 있다</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나는 땅기계 카드를 100가지 이상 말할 수 있다</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js" defer></script>
 </head>
 <body>
-    <main class="quiz-container">
-        <h1>나는 땅기계 카드를 100가지 이상 말할 수 있다</h1>
-        
-        <div class="status">
-            <p>정답 개수 : <span id="score">0</span> / 100</p>
-            <p>남은 시간 : <span id="timer">10:00</span></p>
-        </div>
+  <main class="quiz-container">
+    <h1>나는 땅기계 카드를 100가지 이상 말할 수 있다</h1>
 
-        <form id="answerForm">
-            <input
-                type="text"
-                id="answerInput"
-                placeholder="카드 이름 입력"
-                autocomplete="off"
-            >
+    <div class="status">
+      <span id="score">정답: 0</span>
+      <span id="timer">걸린 시간: 00:00</span>
+    </div>
 
-            <button type="hint">힌트</button>
-        </form>
+    <div class="answer-area">
+      <input
+        type="text"
+        id="answerInput"
+        placeholder="카드 이름을 입력하세요"
+        autocomplete="off"
+        disabled
+      >
+      <button id="startButton" type="button">퀴즈 시작</button>
+      <button id="hintButton" type="button" disabled>힌트</button>
+    </div>
 
-        <p id="feedback" aria-live="polite"></p>
+    <p id="feedback" aria-live="polite">
+      퀴즈 시작 버튼을 눌러 주세요.
+    </p>
 
-        <h2>맞힌 카드</h2>
-        <ul id="correctList"></ul>
+    <section id="hintArea" aria-label="힌트 이미지">
+      <p id="hintMessage">힌트를 누르면 아직 맞히지 못한 카드의 이미지가 잠깐 표시됩니다.</p>
+      <img id="hintImage" alt="힌트 카드 이미지" hidden>
+    </section>
 
-
-        <button id="startButton">게임 시작</button>
-    
-    </main>
-    <script src="js/cards.js"></script>
-    <script src="js/main.js"></script>
-        
+    <div id="quizBoard"></div>
+  </main>
 </body>
 </html>
