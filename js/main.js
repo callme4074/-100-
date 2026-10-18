@@ -55,9 +55,22 @@ function transformSolvedCardByAlias(answer) {
   elements.image.src = `./images/${transformation.newImage}`;
   elements.image.alt = transformation.newDisplayName;
   elements.name.textContent = transformation.newDisplayName;
+  
+  if (easterEggFound && easterEggSection) {
+    const easterEggImage =
+      easterEggSection.querySelector(".card-image");
 
+    if (!easterEggImage) return false;
+
+    easterEggImage.src = "./images/choco2.jpg";
+  }
+  
   feedback.textContent = "에헤이 또 잡혔네!";
-
+  // 특수 효과음 재생
+  const sound = new Audio("./sounds/box.mp3");
+  sound.play().catch(error => {
+    console.warn("효과음을 재생하지 못했습니다.", error);
+  });
   answerInput.value = "";
   return true;
 }
@@ -294,7 +307,10 @@ function submitAnswer() {
 
   const answer = normalizeAnswer(answerInput.value);
   if (!answer) return;
-
+  
+  // 특수 별칭 변환을 먼저 확인
+  if (transformSolvedCardByAlias(answer)) return;
+  
     // 이스터에그 발동어 확인
   if (answer === normalizeAnswer("초코용")) {
     showEasterEgg();
