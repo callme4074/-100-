@@ -282,3 +282,29 @@ input:disabled {
     line-height: 40px;
   }
 }
+
+/* 이스터에그 전용 섹터 */
+.easter-egg-section {
+  border: 2px solid #eab308;
+  background: #3b3020;
+}
+
+.easter-egg-section .level-header h2 {
+  color: #fde047;
+}
+
+/* 이스터에그 카드 강조 */
+.easter-egg-card {
+  border: 2px solid #eab308;
+  box-shadow: 0 0 12px rgb(234 179 8 / 35%);
+}
+
+.easter-egg-card .card-image {
+  display: block;
+}
+
+.easter-egg-card .card-name {
+  color: #fde047;
+  font-size: 12px;
+  font-weight: bold;
+}
