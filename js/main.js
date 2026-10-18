@@ -12,6 +12,8 @@ const topButton = document.getElementById("topButton");
 
 let cards = [];
 let solvedNames = new Set();
+let easterEggFound = false;
+let easterEggSection = null;
 let forfeitedNames = new Set(); // 추가: 힌트 패스/전체보기로 공개된 카드
 let slotByName = new Map();
 
@@ -158,6 +160,59 @@ function renderBoard() {
   }
 }
 
+function showEasterEgg() {
+  // 한 번 발동한 이스터에그는 중복으로 추가하지 않음
+  if (easterEggFound) {
+    return;
+  }
+
+  easterEggFound = true;
+
+  const section = document.createElement("section");
+  section.className = "level-section easter-egg-section";
+
+  const header = document.createElement("div");
+  header.className = "level-header";
+
+  const heading = document.createElement("h2");
+  heading.textContent = "신";
+
+  const label = document.createElement("span");
+  label.className = "level-progress";
+  label.textContent = "특별 공개";
+
+  header.append(heading, label);
+
+  const grid = document.createElement("div");
+  grid.className = "card-grid easter-egg-grid";
+
+  const slot = document.createElement("div");
+  slot.className = "card-slot easter-egg-card";
+
+  const image = document.createElement("img");
+  image.className = "card-image";
+  image.alt = "땅기계의 신";
+  image.src = "./images/choco.jpg";
+
+  const name = document.createElement("div");
+  name.className = "card-name";
+  name.textContent = "땅기계의 신";
+
+  image.addEventListener("error", () => {
+    feedback.textContent =
+      "이스터에그는 발동했지만 이미지를 불러오지 못했습니다. images/easter-egg.jpg를 확인해 주세요.";
+  });
+
+  slot.append(image, name);
+  grid.appendChild(slot);
+  section.append(header, grid);
+
+  quizBoard.appendChild(section);
+  easterEggSection = section;
+
+  feedback.textContent = "「땅기계의 신」이 등장했습니다!";
+}
+
 // isScored: true면 정답(초록색), false면 패스/전체공개(붉은색) 처리
 function revealCard(card, isScored = true) {
   const normalizedName = normalizeAnswer(card.name);
@@ -202,6 +257,13 @@ function submitAnswer() {
   const answer = normalizeAnswer(answerInput.value);
   if (!answer) return;
 
+    // 이스터에그 발동어 확인
+  if (answer === normalizeAnswer("초코용")) {
+    showEasterEgg();
+    answerInput.value = "";
+    return;
+  }
+
   const card = findCardByAnswer(answer);
   if (!card) return;
 
@@ -242,8 +304,16 @@ function showHint() {
 
   // 이미 힌트가 떠 있는 상태에서 한 번 더 누르면 정답 처리 (점수 미포함)
   if (currentHintCard) {
-    revealCard(currentHintCard, false);
-    hintMessage.textContent = `'${currentHintCard.name}' 카드를 패스(점수 미포함) 처리했어.`;
+    // 현재 카드 객체를 별도 변수에 보관
+    const card = currentHintCard;
+  
+    // 점수에 포함하지 않고 카드 공개
+    revealCard(card, false);
+  
+    // currentHintCard가 초기화되어도 card는 유지됨
+    hintMessage.textContent =
+      `'${card.name}' 카드를 패스(점수 미포함) 처리했어.`;
+  
     clearHint();
     return;
   }
@@ -351,6 +421,9 @@ function startGame() {
 
   solvedNames.clear();
   forfeitedNames.clear(); // 시작 시 패스 목록도 초기화
+    // 새 퀴즈에서는 이스터에그도 다시 발견할 수 있도록 초기화
+  easterEggFound = false;
+  easterEggSection = null;
   elapsedSeconds = 0;
   gameStarted = true;
 
