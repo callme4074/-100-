@@ -23,6 +23,44 @@ let currentHintCard = null; // 추가: 현재 힌트로 띄워둔 카드
 let gameStarted = false;
 let revealConfirmTimeoutId = null;
 let revealConfirmPending = false;
+const specialAliasTransformations = [
+  {
+    trigger: "빡스",
+    targetCardName: "앤틱 기어 박스",
+    newImage: "box.jpg",
+    newDisplayName: "선천성"
+  }
+];
+
+function transformSolvedCardByAlias(answer) {
+  const transformation = specialAliasTransformations.find(item =>
+    normalizeAnswer(item.trigger) === answer
+  );
+
+  if (!transformation) return false;
+
+  const targetName = normalizeAnswer(transformation.targetCardName);
+
+  // 해당 카드를 정상적으로 맞힌 경우에만 변환
+  if (!solvedNames.has(targetName)) {
+    return false;
+  }
+
+  // 원래 카드 이름을 기준으로 카드 요소를 찾음
+  const elements = slotByName.get(targetName);
+
+  if (!elements) return false;
+
+  // 이미지와 표시 이름만 변경
+  elements.image.src = `./images/${transformation.newImage}`;
+  elements.image.alt = transformation.newDisplayName;
+  elements.name.textContent = transformation.newDisplayName;
+
+  feedback.textContent = "에헤이 또 잡혔네!";
+
+  answerInput.value = "";
+  return true;
+}
 
 function normalizeAnswer(value) {
   return value.trim().toLowerCase().replace(/\s+/g, " ");
